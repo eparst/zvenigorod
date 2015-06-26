@@ -1,0 +1,121 @@
+@(title: String, nav: String = "")(content: Html)
+
+@import be.objectify.deadbolt.java.views.html._
+@import be.objectify.deadbolt.core.utils.TemplateUtils._
+
+<!DOCTYPE html>
+<html lang="@lang().code()">
+    <head>
+        <title>@title</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Play with Play! Framework 2.0">
+        <meta name="author" content="The Play">
+        @*front-end framework*@
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/uikit.min.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script type="text/javascript" src="@routes.WebJarAssets.at(WebJarAssets.locate("jquery.min.js"))"></script>
+        <script type="text/javascript" src="@routes.WebJarAssets.at(WebJarAssets.locate("bootstrap.min.js"))"></script>
+        <script type="text/javascript" src="@routes.Application.jsRoutes" defer="defer"></script>
+        @*need for calling routes from js
+        <script type="text/javascript" src="@routes.Application.javascriptRoutes()"></script>*@
+        @*front-end framework*@
+        <script type="text/javascript" src="@routes.Assets.at("javascripts/uikit.min.js")"></script>
+        <link rel="stylesheet" href="@routes.WebJarAssets.at(WebJarAssets.locate("css/bootstrap.css"))">
+        <link href="@routes.Assets.at("css/main.css")" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                    	<li class="@("active".when(nav == ""))"><a href="@routes.Application.index()">@Messages("playauthenticate.navigation.home")</a></li>
+                        <li class="@("active".when("request.path" == "/posts/53"))"><a href="@routes.Application.show(53)">Государственный заказник @request.path</a></li>
+						<li class="@("active".when(nav == "restricted"))"><a href="@routes.Application.restricted()">Поиск</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon"></i>Медвижимость звенигорода<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                        			<li class="@("active".when(nav == "show(71)"))"><a href="@routes.Application.show(71)">Карта кадастрового учета</a></li>
+                        			<li class="@("active".when(nav == "show(72)"))"><a href="@routes.Application.show(72)">Кадастровая стоимость земель в районе Звенигорода</a></li>
+									<li class="@("active".when(nav == "show(53)"))"><a href="@routes.Application.show(53)">Карта Звенигорода (Быдло-вариант)
+</a></li>                        
+                                </ul>
+                            </li>						
+                        <!--<li class="@("active".when(nav == "restricted"))"><a href="@routes.Application.restricted()">@Messages("playauthenticate.navigation.restricted") </a></li>-->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon"></i>Развлечения<span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                        			<li class="@("active".when(nav == "restricted"))"><a href="@routes.Application.show(128)">Клипы</a></li>
+                        			<li class="@("active".when(nav == "restricted"))"><a href="@routes.Application.show(15)">Пэсни</a></li>
+									<li class="@("active".when(nav == "restricted"))"><a href="@routes.Application.show(19)">Галерея</a></li>                        
+                                </ul>
+                            </li>
+                        
+                        @subjectNotPresent() {
+                            <li class="@("active".when(nav == "signup"))"><a href="@routes.Application.signup()">@Messages("playauthenticate.navigation.signup")</a></li>
+                        }
+                    </ul>
+Поиск
+                    @subjectPresentOr() {
+                        <ul class="nav navbar-nav navbar-right">
+                        @defining(Application.getLocalUser(session())) { user =>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> @user.name <span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li class="@("active".when(nav == "profile"))"><a href="@routes.Application.profile()">@Messages("playauthenticate.navigation.profile")</a></li>
+                                    <li><a href="@routes.Account.link()">@Messages("playauthenticate.navigation.link_more")</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="@routes.Application.admin()">My Posts</a></li>
+                                    <li class="divider"></li>                                    
+                                    <li><a href="@com.feth.play.module.pa.controllers.routes.Authenticate.logout()"><i class="icon-off"></i> @Messages("playauthenticate.navigation.logout")</a></li>
+                                </ul>
+                            </li>
+                        }
+                        </ul>
+                    } {
+                        <a href="@routes.Application.login()" class=" navbar-right btn btn-default navbar-btn @("disabled".when(nav == "login"))">@Messages("playauthenticate.navigation.login")</a>
+                    }
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div class="container">
+            @if(flash.contains(Application.FLASH_ERROR_KEY)) {
+                <div class="alert alert-danger" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">
+                        Close</span></button>
+                    @flash().get(Application.FLASH_ERROR_KEY)
+                </div>
+            }
+            @if(flash.contains(Application.FLASH_MESSAGE_KEY)) {
+                <div class="alert alert-success" role="alert">
+                    <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">
+                        Close</span></button>
+                    @flash().get(Application.FLASH_MESSAGE_KEY)
+                </div>
+            }
+            @content
+
+            <hr>
+
+            <footer>
+                <p>&copy;
+                    2003-2015 Звенигород. Дютьково.</p>
+                <p>
+                    <small> Powered by Eparst<a href="http://med24.ru" target="_blank">
+                        med24.ru</a> &middot;
+                        </small></p>
+            </footer>
+        </div> <!-- /container -->
+
+    </body>
+</html>

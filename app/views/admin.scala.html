@@ -1,0 +1,61 @@
+@import models._
+
+@(postsAll: List[Post], postsUser: List[Post], user: User) @main("Admin") {
+</br>
+    @if(flash.contains("success")) {
+        <p>
+        @flash.get("success")
+        </p>
+    }
+
+    <h4>My posts:</h4>
+    <ul>
+ @if(postsUser != null){
+    @for(post <- postsUser) {
+                <li><a href="@routes.Application.show(post.id)">@post.title</a>
+                       @Html(post.htmlPreview)
+                <p><a href="@routes.AdminsPosts.edit(post.id)">edit</a> 
+                <a href="@routes.AdminsPosts.delete(post.id)">delete</a></p></li>
+            }
+        @*<li></li>*@
+       <p> <a class="btn" href="@routes.AdminsPosts.create()">Create new post</a> as @user.name</p>
+    }else{
+      			<p>No posts.... </p>
+          }
+                  </ul>
+                  <hr><hr>
+                  		@if(user.isAdmin){
+                    <h4>All posts:</h4>
+                    <table>
+                    <tr>
+                    <td>N</td>      				
+    				<td>Content</td>
+    				<td>ID</td>
+    				<td>Author</td>
+    				</tr>
+					<tr><td colspan="4"><hr></td></tr>					    				
+         @if(postsAll != null){
+    @for((post, index) <- postsAll.zipWithIndex) {
+    <tr>
+<td>@(index + 1)</td>
+    <td>
+    <ul>    
+               <li><a href="@routes.Application.show(post.id)">@post.title</a>
+                       @Html(post.htmlPreview)
+                <p><a href="@routes.AdminsPosts.edit(post.id)">edit</a> 
+                <a href="@routes.AdminsPosts.delete(post.id)">delete</a></p></li>
+      </ul>
+      </td>
+    <td>@post.id</td>      
+      <td>@post.author.name</td>
+      </tr>
+      	<tr><td colspan="4"><hr></td></tr>
+            }
+
+    }else{
+      			<p>No posts.... </p>
+          }
+          </tr>
+          </table>
+         }
+}

@@ -1,0 +1,112 @@
+# Test data
+
+# Users
+users:
+    - &user1 !!models.User
+        email:      rus-f1@ya.ru
+        name:   eparst
+        isAdmin:    true
+        emailValidated: true
+        active: true
+        password: qqqqqqq
+        
+    - &user2 !!models.User
+        email:      jeff@gmail.com
+        name:   Jeff
+        emailValidated: true
+        active: true
+        password: qqqqqqq
+
+# Tags
+tags:
+
+    - &tag1 !!models.Tag
+        name:  Play2.0
+
+    - &tag2 !!models.Tag
+        name:  Architecture
+
+    - &tag3 !!models.Tag
+        name:  Test
+
+    - &tag4 !!models.Tag
+        name:  MVC
+
+    - &tag5 !!models.Tag
+        name:  Ebean
+
+    - &tag6 !!models.Tag
+        name:  Javascript
+# Posts
+posts:
+
+    - &post1 !!models.Post
+        title:      About the model layer
+        postedAt:   2009-06-14
+        author: *user1
+        tags:  
+             - *tag1
+             - *tag2
+             - *tag3
+ 
+        content:    >
+                    The model has a central position in a Play! application. It is the domain-specific 
+                    representation of the information on which the application operates.
+                    
+                    Martin fowler defines it as:
+                        
+                    Responsible for representing concepts of the business, information about the 
+                    business situation, and business rules. State that reflects the business situation 
+                    is controlled and used here, even though the technical details of storing it are 
+                    delegated to the infrastructure. This layer is the heart of business software.            
+        
+    - &post2 !!models.Post
+        title:      Just a test of YABE
+        postedAt:   2009-03-25
+        author: *user1
+        content:    >
+                    Well, it's just a test.
+        tags:  
+             - *tag4
+             - *tag5
+
+    - &post3 !!models.Post
+        title:      The MVC application
+        postedAt:   2009-06-06
+        author: *user2
+        content:    >
+                    A Play! application follows the MVC architectural pattern as applied to the 
+                    architecture of the Web.
+                    
+                    This pattern splits the application into separate layers: the Presentation 
+                    layer and the Model layer. The Presentation layer is further split into a 
+                    View and a Controller layer.
+        tags:  
+             - *tag5
+             - *tag6
+
+
+# Comments
+comments:
+    
+    - &comment1 !!models.Comment
+        author: *user1
+        content:    >
+                    You are right !
+        postedAt:   2009-06-14
+        post: *post1
+      
+    - &comment2 !!models.Comment
+        author: *user2
+        content:    >
+                    I knew that ....
+        postedAt:   2009-06-15
+        post: *post1
+
+    - &comment3 !!models.Comment
+        author: *user1
+        content:    >
+                    This post is useless ?
+        postedAt:   2009-04-05
+        post: *post2
+

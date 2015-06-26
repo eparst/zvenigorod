@@ -1,0 +1,51 @@
+@import models._
+
+@(postId: Long, postForm: Form[Post]) @main("Edit post") {
+
+ @*   <!-- Codemirror and marked dependencies -->
+    <link rel="stylesheet" href="@routes.Assets.at("codemirror/lib/codemirror.css")">
+    <script src="@routes.Assets.at("codemirror/lib/codemirror.js")"></script>
+    <script src="@routes.Assets.at("codemirror/mode/markdown/markdown.js")"></script>
+    <script src="@routes.Assets.at("codemirror/addon/mode/overlay.js")"></script>
+    <script src="@routes.Assets.at("codemirror/mode/xml/xml.js")"></script>
+    <script src="@routes.Assets.at("codemirror/mode/gfm/gfm.js")"></script>
+    <script src="@routes.Assets.at("javascripts/marked.js")"></script>
+
+    <!-- HTML editor CSS and JavaScript -->
+    <link rel="stylesheet" href="@routes.Assets.at("stylesheets/components/htmleditor.css")">
+    <script src="@routes.Assets.at("javascripts/components/htmleditor.min.js")"></script>
+*@
+@*<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>*@
+<script src="@routes.Assets.at("javascripts/tinymce/tinymce.min.js")"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea#content",
+    plugins : 'media autolink link image lists charmap print preview code'    
+ });
+  tinymce.init({
+    selector: "textarea#htmlPreview",
+    plugins : 'media autolink link image lists charmap print preview'
+ });
+</script>
+    @if(postForm.hasGlobalErrors) {
+        <p class="error">
+        @postForm.globalError.message
+        </p>
+    }
+
+    <h3 class="uk-h3">Edit post</h3>
+    @helper.form(action = routes.AdminsPosts.update(postId)) {
+
+        @helper.textarea(postForm("title"), '_label -> Messages("playauthenticate.posts.title"), 'cols -> "100", 'rows -> "2")
+        @helper.textarea(postForm("content"), 'id -> "content", '_label -> "Text") @* Symbol("data-uk-htmleditor") -> "{markdown:true}")*@
+        @helper.textarea(postForm("htmlPreview"), '_label -> Messages("playauthenticate.posts.prev"), 'cols -> "100", 'rows -> "7")
+        @*TODO helper*@
+        <input type="hidden" name="id" value="@postId" />
+
+        <div>
+            <input type="submit" value="Save this post"> or
+            <a href="@routes.Application.admin()" class="btn">Cancel</a>
+        </div>
+    }
+
+}

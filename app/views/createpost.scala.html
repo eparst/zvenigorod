@@ -1,0 +1,48 @@
+@import models._
+
+@(postForm: Form[Post]) @main("Create post") {
+
+@*
+    <!-- Codemirror and marked dependencies -->
+    <link rel="stylesheet" href="@routes.Assets.at("codemirror/lib/codemirror.css")">
+    <script src="@routes.Assets.at("codemirror/lib/codemirror.js")"></script>
+    <script src="@routes.Assets.at("codemirror/mode/markdown/markdown.js")"></script>
+    <script src="@routes.Assets.at("codemirror/addon/mode/overlay.js")"></script>
+    <script src="@routes.Assets.at("codemirror/mode/xml/xml.js")"></script>
+    <script src="@routes.Assets.at("codemirror/mode/gfm/gfm.js")"></script>
+    <script src="@routes.Assets.at("javascripts/marked.js")"></script>
+
+    <!-- HTML editor CSS and JavaScript -->
+    <link rel="stylesheet" href="@routes.Assets.at("stylesheets/components/htmleditor.css")">
+    <script src="@routes.Assets.at("javascripts/components/htmleditor.min.js")"></script>
+*@
+@*<script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>*@
+<script src="@routes.Assets.at("javascripts/tinymce/tinymce.min.js")"></script>
+<script type="text/javascript">
+tinymce.init({
+    selector: "textarea#content",
+    plugins : 'media autolink link image lists charmap print preview'
+ });
+ tinymce.init({
+    selector: "textarea#htmlPreview",
+    plugins : 'media autolink link image lists charmap print preview'
+ });
+</script>
+
+    @if(postForm.hasGlobalErrors) {
+        <p class="error">
+        @postForm.globalError.message
+        </p>
+    }
+
+
+    <h3 class="uk-h3">@Messages("playauthenticate.posts.CreateNewBlogPost_as") @Application.getLocalUser(session).firstName</h3>
+    @helper.form(action = routes.AdminsPosts.save(), 'id -> "createpostForm") {
+        @helper.textarea(postForm("title"), '_label -> Messages("playauthenticate.posts.title"), 'cols -> "100", 'rows -> "2")
+        @helper.textarea(postForm("content"), '_label -> Messages("playauthenticate.posts.text"), 'cols -> "100", 'rows -> "18")
+		@helper.textarea(postForm("htmlPreview"), '_label -> Messages("playauthenticate.posts.prev"), 'cols -> "100", 'rows -> "7")
+        @*<input type="hidden" name="user" value="@user.id.toString" />*@
+        <input type="submit" value="Submit">
+    }
+}
+
