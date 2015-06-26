@@ -15,7 +15,7 @@ APP_PATH="${OPENSHIFT_REPO_DIR}target/universal/stage/bin/${OPENSHIFT_APP_NAME}"
 
 if [ -f "${OPENSHIFT_REPO_DIR}target/start" ];
 then
-   APP_PATH="${OPENSHIFT_REPO_DIR}target/start"
+   APP_PATH="${OPENSHIFT_REPO_DIR}target/universal/start"
    echo "Play 2.1 or earlier version"
 else
    echo "Play 2.2 or later version"
