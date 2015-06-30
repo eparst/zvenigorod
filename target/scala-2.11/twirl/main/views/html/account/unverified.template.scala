@@ -45,7 +45,7 @@ Seq[Any](_display_(/*1.2*/main(Messages("playauthenticate.verify.account.title")
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 09 16:44:42 MSK 2015
+                  DATE: Tue Jun 30 16:53:12 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/unverified.scala.html
                   HASH: f9ac6b960543a760966b326895339aee89ad061e
                   MATRIX: 811->1|874->56|913->58|942->61|972->66|1041->115|1079->128|1149->178|1177->179|1213->189|1227->195|1267->215|1296->218|1366->267|1413->285

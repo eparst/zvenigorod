@@ -53,7 +53,7 @@ Seq[Any](format.raw/*1.44*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 09 16:44:42 MSK 2015
+                  DATE: Tue Jun 30 16:53:12 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/_emailPartial.scala.html
                   HASH: 2e5387d786fd58292931ba0515cdd0b273a6d1cc
                   MATRIX: 813->1|950->63|982->87|1061->43|1090->136|1118->139|1266->267

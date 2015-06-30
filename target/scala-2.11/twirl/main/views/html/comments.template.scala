@@ -40,7 +40,7 @@ Seq[Any](format.raw/*1.39*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 09 16:44:41 MSK 2015
+                  DATE: Tue Jun 30 16:53:11 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/comments.scala.html
                   HASH: 1624836b6ca94f71fadd4058da1581b31fb91828
                   MATRIX: 738->1|863->38

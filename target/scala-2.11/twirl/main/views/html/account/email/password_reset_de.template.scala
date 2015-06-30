@@ -52,7 +52,7 @@ Seq[Any](format.raw/*1.59*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 09 16:44:42 MSK 2015
+                  DATE: Tue Jun 30 16:53:12 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/password_reset_de.scala.html
                   HASH: 62e5f75f7d2eb19a525ee5b3ddc66c1f2cd10504
                   MATRIX: 770->1|915->58|942->59|972->64|996->68|1304->349|1328->352

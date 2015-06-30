@@ -1,6 +1,6 @@
 // @SOURCE:C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/conf/routes
 // @HASH:ab68d9cd9b06b12d11ef50f1f52aa20605575404
-// @DATE:Tue Jun 23 14:14:19 MSK 2015
+// @DATE:Tue Jun 30 16:53:08 MSK 2015
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._

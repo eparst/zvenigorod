@@ -47,7 +47,7 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.link.account.title"))/
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 09 16:44:42 MSK 2015
+                  DATE: Tue Jun 30 16:53:12 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/link.scala.html
                   HASH: 694e2d60125f0aff5e2e3363e18ce49848110319
                   MATRIX: 805->2|866->55|905->57|941->67|972->72|1039->119|1085->140|1123->158|1154->163|1200->179
