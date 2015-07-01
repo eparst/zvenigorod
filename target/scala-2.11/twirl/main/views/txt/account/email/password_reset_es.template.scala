@@ -49,7 +49,7 @@ El equipo de PlayAuthenticate
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 30 16:53:12 MSK 2015
+                  DATE: Wed Jul 01 13:23:00 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/password_reset_es.scala.txt
                   HASH: 27ccf936e823452b5064a02c99593f13538fa522
                   MATRIX: 764->1|908->58|940->64|964->68|1244->323|1266->326|1295->328

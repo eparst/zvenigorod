@@ -47,7 +47,7 @@ Seq[Any](format.raw/*1.33*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 30 16:53:12 MSK 2015
+                  DATE: Wed Jul 01 13:23:00 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/restricted.scala.html
                   HASH: 7186607e9441749c0c7b1c1f94061bb1b14ee8e2
                   MATRIX: 733->1|852->32|880->35|958->105|997->107|1033->117|1064->122|1134->172|1183->195|1250->242|1281->247|1316->253

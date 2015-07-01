@@ -47,7 +47,7 @@ The PlayAuthenticate Team"""))}
 }
               /*
                   -- GENERATED --
-                  DATE: Tue Jun 30 16:53:12 MSK 2015
+                  DATE: Wed Jul 01 13:23:01 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/signup/email/verify_email_en.scala.txt
                   HASH: 4a803fe478c0ad2f79c59a6c5c339439d0fbc2b3
                   MATRIX: 769->1|925->70|958->77|982->81|1106->180|1141->195|1169->197
