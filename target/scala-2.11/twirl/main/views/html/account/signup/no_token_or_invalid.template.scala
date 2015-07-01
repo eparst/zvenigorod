@@ -42,7 +42,7 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.token.error.title"))/*
 }
               /*
                   -- GENERATED --
-                  DATE: Wed Jul 01 13:23:01 MSK 2015
+                  DATE: Wed Jul 01 14:04:45 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/signup/no_token_or_invalid.scala.html
                   HASH: 95cd33e930c5cdf291b9a0871d5cb371304a9a6b
                   MATRIX: 827->2|887->54|926->56|954->58|984->63|1050->109|1086->120|1154->168|1189->174

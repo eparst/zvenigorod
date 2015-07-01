@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20150701132301"/>
+		date="20150701140442"/>
 	<dependencies>
 		<module organisation="org.webjars" name="bootstrap">
 			<revision name="3.2.0" status="release" pubdate="20140626210711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="83">
@@ -233,12 +233,12 @@
 			</revision>
 		</module>
 		<module organisation="org.postgresql" name="postgresql">
-			<revision name="9.2-1003-jdbc4" status="release" pubdate="20130528022436" resolver="public" artresolver="public" homepage="http://jdbc.postgresql.org" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="67">
+			<revision name="9.2-1003-jdbc4" status="release" pubdate="20130528022436" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="67">
 				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
-				<metadata-artifact status="successful" details="" size="1479" time="496" location="C:\Users\vveprinskiy\.ivy2\cache\org.postgresql\postgresql\ivy-9.2-1003-jdbc4.xml" searched="true" original-local-location="C:\Users\vveprinskiy\.ivy2\cache\org.postgresql\postgresql\ivy-9.2-1003-jdbc4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom"/>
+				<metadata-artifact status="no" details="" size="2383" time="0" location="C:\Users\vveprinskiy\.ivy2\cache\org.postgresql\postgresql\ivy-9.2-1003-jdbc4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.pom"/>
 				<caller organisation="zvenigorod" name="zvenigorod_2.11" conf="test-internal, test, optional, compile, provided, runtime" rev="9.2-1003-jdbc4" rev-constraint-default="9.2-1003-jdbc4" rev-constraint-dynamic="9.2-1003-jdbc4" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="postgresql" type="jar" ext="jar" status="successful" details="" size="594653" time="1081" location="C:\Users\vveprinskiy\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.2-1003-jdbc4.jar">
+					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="594653" time="0" location="C:\Users\vveprinskiy\.ivy2\cache\org.postgresql\postgresql\jars\postgresql-9.2-1003-jdbc4.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/postgresql/postgresql/9.2-1003-jdbc4/postgresql-9.2-1003-jdbc4.jar"/>
 					</artifact>
 				</artifacts>
