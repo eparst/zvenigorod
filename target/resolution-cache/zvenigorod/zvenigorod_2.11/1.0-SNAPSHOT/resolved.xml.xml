@@ -4,7 +4,7 @@
 		module="zvenigorod_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150701143745"
+		publication="20150706153605"
 	>
 		<description>
 		zvenigorod
@@ -41,7 +41,7 @@
 		<dependency org="com.typesafe.play" name="play-java_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="be.objectify" name="deadbolt-java_2.11" rev="2.3.2" conf="compile->default(compile)"/>
 		<dependency org="com.feth" name="play-authenticate_2.11" rev="0.6.8" conf="compile->default(compile)"/>
-		<dependency org="org.postgresql" name="postgresql" rev="9.2-1003-jdbc4" conf="compile->default(compile)"/>
+		<dependency org="postgresql" name="postgresql" rev="9.1-901-1.jdbc4" conf="compile->default(compile)"/>
 		<dependency org="mysql" name="mysql-connector-java" rev="5.1.34" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.3.6" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.3.6" conf="compile->default(compile)"/>
