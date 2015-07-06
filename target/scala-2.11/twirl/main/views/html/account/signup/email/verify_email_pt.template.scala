@@ -51,7 +51,7 @@ Seq[Any](format.raw/*1.71*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Mon Jul 06 15:36:05 MSK 2015
+                  DATE: Mon Jul 06 15:54:00 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/signup/email/verify_email_pt.scala.html
                   HASH: 14d362fbcf83498f09bf819b685babf50921017d
                   MATRIX: 775->1|932->70|960->72|990->77|1014->81|1161->202|1196->217
