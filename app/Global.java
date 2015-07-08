@@ -80,6 +80,11 @@ public class Global extends GlobalSettings {
 	}
 
 	private void initialData() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void initialDataOLD() {
 		if (Post.find.findRowCount() == 0){ // from me
 		if (SecurityRole.find.findRowCount() == 0) {
 			for (final String roleName : Arrays
