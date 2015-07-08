@@ -39,7 +39,7 @@ Seq[Any](format.raw/*1.23*/("""
 }
               /*
                   -- GENERATED --
-                  DATE: Mon Jul 06 15:53:57 MSK 2015
+                  DATE: Wed Jul 08 10:18:07 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/_providerIcon.scala.html
                   HASH: d6252bd8a1459d41d382399854fe81d00f040277
                   MATRIX: 731->1|840->22|868->24|905->35|936->46|964->47|1004->61|1035->72|1069->80|1083->86|1149->131
