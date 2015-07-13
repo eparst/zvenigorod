@@ -1,4 +1,4 @@
-import play.PlayJava
+//import play.PlayJava
 
 name := "zvenigorod"
 
@@ -7,9 +7,11 @@ scalaVersion := "2.11.2"
 version := "1.0-SNAPSHOT"
 
 val appDependencies = Seq(
-  "be.objectify"  %% "deadbolt-java"     % "2.3.2",
+//  "be.objectify"  %% "deadbolt-java"     % "2.3.2",
+"be.objectify"  %% "deadbolt-java"     % "2.4.0",
   // Comment the next line for local development of the Play Authentication core:
-  "com.feth"      %% "play-authenticate" % "0.6.8",
+//  "com.feth"      %% "play-authenticate" % "0.7.0",
+  "com.feth"      %% "play-authenticate" % "0.7.0-SNAPSHOT",
 //  "postgresql" % "postgresql" % "9.1-901-1.jdbc4",
 	"org.postgresql" % "postgresql" % "9.2-1003-jdbc4",
 //  "mysql" % "mysql-connector-java" % "5.1.34",
@@ -17,19 +19,21 @@ val appDependencies = Seq(
   cache,
   javaWs,
   javaJdbc,
-  javaEbean,
-  "org.webjars" %% "webjars-play" % "2.3.0",
+//  javaEbean,
+//  "org.webjars" %% "webjars-play" % "2.3.0",
   "org.webjars" % "bootstrap" % "3.2.0"
+//  evolutions
 )
-
+resolvers += Resolver.sonatypeRepo("snapshots")
 //  Uncomment the next line for local development of the Play Authenticate core:
 //lazy val playAuthenticate = project.in(file("modules/play-authenticate")).enablePlugins(PlayJava)
 
 lazy val root = project.in(file("."))
-  .enablePlugins(PlayJava)
+//  .enablePlugins(PlayJava)
   .settings(
     libraryDependencies ++= appDependencies
   )
+
   /* Uncomment the next lines for local development of the Play Authenticate core: */
   //.dependsOn(playAuthenticate)
   //.aggregate(playAuthenticate)

@@ -28,7 +28,8 @@ import java.util.*;
  */
 @Entity
 @Table(name = "jos_users")
-public class User extends Model implements Subject {
+//public class User extends Model implements Subject {
+public class User extends AppModel implements Subject {
 	/**
 	 * 
 	 */
@@ -66,7 +67,9 @@ public class User extends Model implements Subject {
 	@ManyToMany
 	public List<UserPermission> permissions;
 
-	public static final Finder<Long, User> find = new Finder<Long, User>(
+/*	public static final Finder<Long, User> find = new Finder<Long, User>(
+			Long.class, User.class);*/
+	public static final AppModel.Finder<Long, User> find = new AppModel.Finder<Long, User>(
 			Long.class, User.class);
 
 	@Override
@@ -176,7 +179,7 @@ public class User extends Model implements Subject {
 		}
 
 		user.save();
-		user.saveManyToManyAssociations("roles");
+//		user.saveManyToManyAssociations("roles");
 		// user.saveManyToManyAssociations("permissions");
 		return user;
 	}

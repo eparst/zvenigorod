@@ -24,7 +24,6 @@ import play.mvc.Call;
 public class Global extends GlobalSettings {
 	String initialFile = "initial-data.yml"; //"zvenigorod.yml";
 	public void onStart(Application app) {
-		
 		PlayAuthenticate.setResolver(new Resolver() {
 
 			@Override
@@ -80,19 +79,14 @@ public class Global extends GlobalSettings {
 	}
 
 	private void initialData() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	private void initialDataOLD() {
 		if (Post.find.findRowCount() == 0){ // from me
-		if (SecurityRole.find.findRowCount() == 0) {
-			for (final String roleName : Arrays
-					.asList(controllers.Application.USER_ROLE)) {
-				final SecurityRole role = new SecurityRole();
-				role.roleName = roleName;
-				role.save();
-			}
+			if (SecurityRole.find.findRowCount() == 0) {
+				for (final String roleName : Arrays
+						.asList(controllers.Application.USER_ROLE)) {
+					final SecurityRole role = new SecurityRole();
+					role.roleName = roleName;
+					role.save();
+				}
 	// from yabe:
 	if(Ebean.find(User.class).findRowCount() == 0) {
         Logger.debug("Read " + initialFile + " file.");
