@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
+import javasape.*;
 import models.Comment;
 import models.Post;
 import models.SecurityRole;
@@ -18,11 +19,15 @@ import controllers.routes;
 import play.Application;
 import play.GlobalSettings;
 import play.Logger;
+import play.Play;
 import play.libs.Yaml;
 import play.mvc.Call;
 
 public class Global extends GlobalSettings {
-	String initialFile = "initial-data.yml"; //"zvenigorod.yml";
+	String initialFile = "initial-data.yml"; // "zvenigorod.yml";
+//	String sapeUser = Play.application().configuration().getString("sapeUser");
+//	String sapeHost = Play.application().configuration().getString("sapeHost");
+//	Sape sape = new Sape("97901b0e4e758e827c3bb59bb18e52bd", "zvenigorod.us", 1000, 5 * 60);
 	public void onStart(Application app) {
 		PlayAuthenticate.setResolver(new Resolver() {
 
@@ -74,12 +79,17 @@ public class Global extends GlobalSettings {
 				return super.onException(e);
 			}
 		});
-
+//		sape.debug = Play.application().configuration().getBoolean("sapeDebug");
+//		sape.getPageLinks(request.getRequestURI(), request.getCookies());
 		initialData();
+/*		Sape sape = new Sape("97901b0e4e758e827c3bb59bb18e52bd", "zvenigorod.us", 1000, 5 * 60);
+		sape.debug = true;
+	  SapePageLinks pageLinks = sape.getPageLinks("/", null);
+	  Logger.debug(pageLinks.render());*/
 	}
 
 	private void initialData() {
-		if (Post.find.findRowCount() == 0){ // from me
+//		if (Post.find.findRowCount() == 0) { // from me
 			if (SecurityRole.find.findRowCount() == 0) {
 				for (final String roleName : Arrays
 						.asList(controllers.Application.USER_ROLE)) {
@@ -87,40 +97,41 @@ public class Global extends GlobalSettings {
 					role.roleName = roleName;
 					role.save();
 				}
-	// from yabe:
-	if(Ebean.find(User.class).findRowCount() == 0) {
-        Logger.debug("Read " + initialFile + " file.");
+				// from yabe:
+/*				if (Ebean.find(User.class).findRowCount() == 0) {
+					Logger.debug("Read " + initialFile + " file.");
 
-				Map<String, List<Object>> all = (Map<String, List<Object>>)Yaml.load(initialFile);
+					Map<String, List<Object>> all = (Map<String, List<Object>>) Yaml
+							.load(initialFile);
 
-        if(Ebean.find(User.class).findRowCount() == 0) {
-          Logger.debug("Loading users from " + initialFile);
-  				Ebean.save(all.get("users"));
-        }
+					if (Ebean.find(User.class).findRowCount() == 0) {
+						Logger.debug("Loading users from " + initialFile);
+						Ebean.save(all.get("users"));
+					}
 
-        if(Ebean.find(Tag.class).findRowCount() == 0) {
-          Logger.debug("Loading tags from " + initialFile);
-  				Ebean.save(all.get("tags"));
-        }
+					if (Ebean.find(Tag.class).findRowCount() == 0) {
+						Logger.debug("Loading tags from " + initialFile);
+						Ebean.save(all.get("tags"));
+					}
 
-        if(Ebean.find(Post.class).findRowCount() == 0) {
-          Logger.debug("Loading posts from " + initialFile);
-				  Ebean.save(all.get("posts"));
-          
-          for(Object post: all.get("posts")) {
-            Logger.debug("Inserting posts-tags from " + initialFile);
-            Ebean.saveManyToManyAssociations(post, "tags");
-          }
-        }
+					if (Ebean.find(Post.class).findRowCount() == 0) {
+						Logger.debug("Loading posts from " + initialFile);
+						Ebean.save(all.get("posts"));
 
+						for (Object post : all.get("posts")) {
+							Logger.debug("Inserting posts-tags from "
+									+ initialFile);
+							Ebean.saveManyToManyAssociations(post, "tags");
+						}
+					}
 
-        if(Ebean.find(Comment.class).findRowCount() == 0) {
-          Logger.debug("Loading comments from " + initialFile);
-				  Ebean.save(all.get("comments"));
-        }
-			}
-	// :end from yabe
-		}
-	}
+					if (Ebean.find(Comment.class).findRowCount() == 0) {
+						Logger.debug("Loading comments from " + initialFile);
+						Ebean.save(all.get("comments"));
+					}
+				}
+				// :end from yabe
+		*/	}
+	//	}
 	}
 }

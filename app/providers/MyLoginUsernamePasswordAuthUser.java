@@ -10,8 +10,7 @@ public class MyLoginUsernamePasswordAuthUser extends
 	 */
 	private static final long serialVersionUID = 1L;
 	/**
-	 * The session timeout in seconds
-	 * Defaults to two weeks
+	 * The session timeout in seconds Defaults to two weeks
 	 */
 	final static long SESSION_TIMEOUT = 24 * 14 * 3600;
 	private long expiration;

@@ -41,7 +41,7 @@
     <td>
     <ul>    
                <li><a href="@routes.Application.show(post.id)">@post.title</a>
-                       @Html(post.htmlPreview)
+                       @Html(CdnAssets.changeImageUrl(post.htmlPreview))
                 <p><a href="@routes.AdminsPosts.edit(post.id)">edit</a> 
                 <a href="@routes.AdminsPosts.delete(post.id)">delete</a></p></li>
       </ul>

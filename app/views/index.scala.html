@@ -1,42 +1,35 @@
-@(front: Post, older: List[Post])
+@(front: Post, older: List[Post], sape: javasape.Sape)
 @main(Messages("playauthenticate.index.title")) {
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" >
-       <!--  <h1>@Messages("playauthenticate.index.intro")</h1>
-        <p>@Messages("playauthenticate.index.intro_2") <br/>@Messages("playauthenticate.index.intro_3")</p>-->
-        <!-- <img src="http://zv-cdn.appspot.com/static/zv/templates/siteground-j15-93/images/headerimg960.png" class="img-responsive">
-         -->
+       <!--  <h1>@Messages("playauthenticate.index.intro")</h1>-->
       </div>
-
+      @Messages("Реклама: ") 
+@sape.getPageLinks(request.uri,request.cookies).render()
+@*@sape.render()*@
       <!-- Example row of columns -->
       <div class="row">
+      @for(i <- 0 to 2) {
         <div class="col-xs-6 col-sm-4">
-          <h2>@older.get(0).title</h2>
-       <p>@if(older.get(0).htmlPreview != null){@Html(older.get(0).htmlPreview)}else{@Html(older.get(0).content.substring(1, 150))...}</p>
-          <a class="btn" href="@routes.Application.show(older.get(0).id)">@Messages("playauthenticate.index.weite") &raquo;</a></p>
-        </div>
-        <div class="col-xs-6 col-sm-4">
-          <h2>@older.get(1).title</h2>
-<p>@if(older.get(1).htmlPreview != null){@Html(older.get(1).htmlPreview)}else{
-@if(older.get(1).content.length() > 150){@Html(older.get(1).content.substring(1, 150))...}else{@Html(older.get(1).content)}
-}</p>
-          <a class="btn" href="@routes.Application.show(older.get(1).id)">@Messages("playauthenticate.index.weite") &raquo;</a></p>
-       </div>
-        <div class="col-xs-6 col-sm-4">
-          <h2>@older.get(2).title</h2>
-<p>@if(older.get(2).htmlPreview != null){@Html(older.get(2).htmlPreview)}else{
-@if(older.get(2).content.length() > 150){@Html(older.get(2).content.substring(1, 150))...}else{@Html(older.get(2).content)}
-}</p>
-          <a class="btn" href="@routes.Application.show(older.get(2).id)">@Messages("playauthenticate.index.weite") &raquo;</a></p>
-        </div>
+        @defining(CdnAssets.changeImageUrl(older.get(i).htmlPreview)){ prev =>
+          		<h2>@older.get(i).title</h2>
+				<p>@if(prev != null){@Html(prev)}else{
+							@defining(CdnAssets.changeImageUrl(older.get(i).content)){ cont =>
+					@if(cont.length() > 150){@Html(cont.substring(1, 150))...}else{@Html(cont)}
+				}</p>
+			}
+		}
+          <a class="btn" href="@routes.Application.show(older.get(i).id)">@Messages("playauthenticate.index.weite") &raquo;</a></p>
+       </div>}
       </div>
        <!-- from yabe -->
+       @*
         @Option(front).map { front =>
-    <!--  @display(front, mode = "home") -->
+    @display(front, mode = "home")
     
     @Option(older).filterNot(_.isEmpty).map{ posts => 
       <div class="older-posts">
-        <h3>������<span class="from">�������</span></h3>
+        <h3>@Messages("Другие новости:")</h3>
         @posts.map { post =>
           @display(post, mode = "teaser")
         }
@@ -44,9 +37,20 @@
     }
   }.getOrElse {
     <div class="empty">
-      There is currently nothing to read here
+      Нет новостей на сегодня
     </div>
-    
-  }
+    }*@
+    <div class="older-posts">
+        <h3>@Messages("Другие новости:")</h3>
+         @for(i <- 3 to 7) {
+         	@display(older.get(i), mode = "teaser")
+         }        
+       </div>@*
+        <div class="older-posts">
+        <h3>@Messages("playauthenticate.index.weite")</h3>
+         @for(i <- 8 to older.size-1) {
+         	 <a class="btn" href="@routes.Application.show(older.get(i).id)">i&raquo;</a>
+         }        
+       </div>*@
   }
     

@@ -126,7 +126,8 @@ public class MyUsernamePasswordAuthProvider
 	}
 
 	@Override
-	protected com.feth.play.module.pa.providers.password.UsernamePasswordAuthProvider.SignupResult signupUser(final MyUsernamePasswordAuthUser user) {
+	protected com.feth.play.module.pa.providers.password.UsernamePasswordAuthProvider.SignupResult signupUser(
+			final MyUsernamePasswordAuthUser user) {
 		final User u = User.findByUsernamePasswordIdentity(user);
 		if (u != null) {
 			if (u.emailValidated) {
@@ -200,10 +201,10 @@ public class MyUsernamePasswordAuthProvider
 		return new MyLoginUsernamePasswordAuthUser(login.getPassword(),
 				login.getEmail());
 	}
-	
 
 	@Override
-	protected MyLoginUsernamePasswordAuthUser transformAuthUser(final MyUsernamePasswordAuthUser authUser, final Context context) {
+	protected MyLoginUsernamePasswordAuthUser transformAuthUser(
+			final MyUsernamePasswordAuthUser authUser, final Context context) {
 		return new MyLoginUsernamePasswordAuthUser(authUser.getEmail());
 	}
 

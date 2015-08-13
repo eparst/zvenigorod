@@ -1,0 +1,42 @@
+@(front: Post, older: List[Post])
+@main(Messages("playauthenticate.index.title")) {
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron" >
+       <!--  <h1>@Messages("playauthenticate.index.intro")</h1>-->
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+      @for(i <- 0 to 2) {
+        <div class="col-xs-6 col-sm-4">
+        @defining(CdnAssets.changeImageUrl(older.get(i).htmlPreview)){ prev =>
+          		<h2>@older.get(i).title</h2>
+				<p>@if(prev != null){@Html(prev)}else{
+							@defining(CdnAssets.changeImageUrl(older.get(i).content)){ cont =>
+					@if(cont.length() > 150){@Html(cont.substring(1, 150))...}else{@Html(cont)}
+				}</p>
+			}
+		}
+          <a class="btn" href="@routes.Application.show(older.get(i).id)">@Messages("playauthenticate.index.weite") &raquo;</a></p>
+       </div>}
+      </div>
+       <!-- from yabe -->
+        @Option(front).map { front =>
+    <!--  @display(front, mode = "home") -->
+    
+    @Option(older).filterNot(_.isEmpty).map{ posts => 
+      <div class="older-posts">
+        <h3>@Messages("Другие")<span class="from">@Messages("новости")</span></h3>
+        @posts.map { post =>
+          @display(post, mode = "teaser")
+        }
+       </div>
+    }
+  }.getOrElse {
+    <div class="empty">
+      There is currently nothing to read here
+    </div>
+    
+  }
+  }
+    

@@ -16,7 +16,6 @@ import com.feth.play.module.pa.user.FirstLastNameIdentity;
 import models.TokenAction.Type;
 import play.data.format.Formats;
 import play.data.validation.Constraints;
-import play.db.ebean.Model;
 
 import javax.persistence.*;
 
@@ -28,7 +27,7 @@ import java.util.*;
  */
 @Entity
 @Table(name = "jos_users")
-//public class User extends Model implements Subject {
+// public class User extends Model implements Subject {
 public class User extends AppModel implements Subject {
 	/**
 	 * 
@@ -45,7 +44,7 @@ public class User extends AppModel implements Subject {
 	public String email;
 
 	public String name;
-	
+
 	public String firstName;
 	public String password;
 	public String lastName;
@@ -67,14 +66,15 @@ public class User extends AppModel implements Subject {
 	@ManyToMany
 	public List<UserPermission> permissions;
 
-/*	public static final Finder<Long, User> find = new Finder<Long, User>(
-			Long.class, User.class);*/
+	/*
+	 * public static final Finder<Long, User> find = new Finder<Long, User>(
+	 * Long.class, User.class);
+	 */
 	public static final AppModel.Finder<Long, User> find = new AppModel.Finder<Long, User>(
 			Long.class, User.class);
 
 	@Override
-	public String getIdentifier()
-	{
+	public String getIdentifier() {
 		return Long.toString(id);
 	}
 
@@ -138,6 +138,7 @@ public class User extends AppModel implements Subject {
 		otherUser.active = false;
 		Ebean.save(Arrays.asList(new User[] { otherUser, this }));
 	}
+
 	public static User create(final AuthUser authUser) {
 		final User user = new User();
 		user.roles = Collections.singletonList(SecurityRole
@@ -165,21 +166,21 @@ public class User extends AppModel implements Subject {
 				user.name = name;
 			}
 		}
-		
+
 		if (authUser instanceof FirstLastNameIdentity) {
-		  final FirstLastNameIdentity identity = (FirstLastNameIdentity) authUser;
-		  final String firstName = identity.getFirstName();
-		  final String lastName = identity.getLastName();
-		  if (firstName != null) {
-		    user.firstName = firstName;
-		  }
-		  if (lastName != null) {
-		    user.lastName = lastName;
-		  }
+			final FirstLastNameIdentity identity = (FirstLastNameIdentity) authUser;
+			final String firstName = identity.getFirstName();
+			final String lastName = identity.getLastName();
+			if (firstName != null) {
+				user.firstName = firstName;
+			}
+			if (lastName != null) {
+				user.lastName = lastName;
+			}
 		}
 
 		user.save();
-//		user.saveManyToManyAssociations("roles");
+		// user.saveManyToManyAssociations("roles");
 		// user.saveManyToManyAssociations("permissions");
 		return user;
 	}
@@ -214,7 +215,7 @@ public class User extends AppModel implements Subject {
 	public static User findByEmail(final String email) {
 		return getEmailUserFind(email).findUnique();
 	}
-	
+
 	public static User findById(final Long id) {
 		return find.where().eq("active", true).eq("id", id).findUnique();
 	}

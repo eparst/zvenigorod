@@ -29,9 +29,10 @@ public class MyUserServicePlugin extends UserServicePlugin {
 	@Override
 	public Object getLocalIdentity(final AuthUserIdentity identity) {
 		// For production: Caching might be a good idea here...
-		// ...and dont forget to sync the cache when users get deactivated/deleted
+		// ...and dont forget to sync the cache when users get
+		// deactivated/deleted
 		final User u = User.findByAuthUserIdentity(identity);
-		if(u != null) {
+		if (u != null) {
 			return u.id;
 		} else {
 			return null;
@@ -51,7 +52,7 @@ public class MyUserServicePlugin extends UserServicePlugin {
 		User.addLinkedAccount(oldUser, newUser);
 		return newUser;
 	}
-	
+
 	@Override
 	public AuthUser update(final AuthUser knownUser) {
 		// User logged in again, bump last login date
