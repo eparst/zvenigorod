@@ -34,23 +34,23 @@
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-server_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-test_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-java_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-netty-server_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>be.objectify</groupId>
@@ -70,17 +70,17 @@
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-cache_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-java-ws_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.typesafe.play</groupId>
             <artifactId>play-java-jdbc_2.11</artifactId>
-            <version>2.4.2</version>
+            <version>2.4.0</version>
         </dependency>
         <dependency>
             <groupId>org.webjars</groupId>

@@ -53,7 +53,7 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.token.error.title"))/*
 object no_token_or_invalid extends no_token_or_invalid_Scope0.no_token_or_invalid
               /*
                   -- GENERATED --
-                  DATE: Thu Aug 13 12:42:59 MSK 2015
+                  DATE: Thu Aug 13 15:34:55 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/signup/no_token_or_invalid.scala.html
                   HASH: 3acf522ebe9137753a8ea94ca7082d5afce58e52
                   MATRIX: 870->2|930->54|969->56|997->58|1027->63|1093->109|1129->120|1197->168|1232->174

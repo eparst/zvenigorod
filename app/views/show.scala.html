@@ -1,10 +1,12 @@
-@(post: Post, commentForm: Form[CommentForm], randomID: String)
+@(post: Post, commentForm: Form[CommentForm], randomID: String, sape: javasape.Sape)
 @import helper._
 @import be.objectify.deadbolt.java.views.html._
 @import be.objectify.deadbolt.core.utils.TemplateUtils._
         <div class="container">
         <div class="jumbotron" >
         </div> <!-- jumbotron --> 
+        @Messages("Р РµРєР»Р°РјР°: ") 
+@sape.getPageLinks(request.uri,request.cookies).render(3)
 @main(post.title){
 <!--   <ul id="pagination">
       @if(!Option(post previous).isEmpty) {
@@ -56,7 +58,7 @@
           </p>
            *@
           <p>
-            <input type="submit" value="Отправить комментарий" />
+            <input type="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" />
           </p>
       </fieldset>
       			}

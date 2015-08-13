@@ -4,7 +4,7 @@
 		module="zvenigorod_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150813124257"
+		publication="20150813153452"
 	>
 		<description>
 		zvenigorod
@@ -37,17 +37,17 @@
 		<dependency org="com.typesafe.play" name="play-enhancer" rev="1.1.0" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="twirl-api_2.11" rev="1.1.1" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-ebean_2.11" rev="1.0.0" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.4.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.4.2" conf="test->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-omnidoc_2.11" rev="2.4.2" conf="docs->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-java_2.11" rev="2.4.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-netty-server_2.11" rev="2.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.4.0" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-omnidoc_2.11" rev="2.4.0" conf="docs->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java_2.11" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-netty-server_2.11" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="be.objectify" name="deadbolt-java_2.11" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="com.feth" name="play-authenticate_2.11" rev="0.7.0-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="org.postgresql" name="postgresql" rev="9.2-1003-jdbc4" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.4.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.4.2" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.4.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-cache_2.11" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-ws_2.11" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-java-jdbc_2.11" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.webjars" name="webjars-play_2.11" rev="2.4.0-1" conf="compile->default(compile)"/>
 		<dependency org="org.webjars" name="bootstrap" rev="3.2.0" conf="compile->default(compile)"/>
 	</dependencies>

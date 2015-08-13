@@ -75,7 +75,7 @@ public class Application extends Controller {
 			System.out.printf("Tag: %s\n", tag.name);
 		}
 		String randomID = UUID.randomUUID().toString();
-		return ok(show.render(post, commentForm, randomID));
+		return ok(show.render(post, commentForm, randomID, Sape.getSape()));
 	}
 
 	/*
@@ -92,7 +92,7 @@ public class Application extends Controller {
 		Post post = Post.find.byId(postId);
 
 		if (filled.hasErrors()) {
-			return badRequest(show.render(post, commentForm, randomID));
+			return badRequest(show.render(post, commentForm, randomID, Sape.getSape()));
 		} else {
 			CommentForm comment = filled.get();
 			// post.addComment(comment.name, comment.email, comment.content);
