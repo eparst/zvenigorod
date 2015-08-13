@@ -60,7 +60,7 @@ Seq[Any](format.raw/*1.71*/("""
 object verify_email_de extends verify_email_de_Scope0.verify_email_de
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 12 16:48:53 MSK 2015
+                  DATE: Thu Aug 13 12:42:59 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/verify_email_de.scala.html
                   HASH: 3b60176a1038a4c0a6edfd5273d8e0f612f5010e
                   MATRIX: 800->1|964->70|991->71|1021->76|1045->80|1141->150|1176->165

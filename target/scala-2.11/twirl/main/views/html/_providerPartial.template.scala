@@ -71,7 +71,7 @@ function askOpenID(url) """),format.raw/*6.25*/("""{"""),format.raw/*6.26*/("""
 object _providerPartial extends _providerPartial_Scope0._providerPartial
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 12 16:48:52 MSK 2015
+                  DATE: Thu Aug 13 12:42:58 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/_providerPartial.scala.html
                   HASH: 7595736edc0f0ad2c104fbc93d331b12b1006a7d
                   MATRIX: 768->1|935->30|963->77|990->78|1073->134|1101->135|1129->137|1243->224|1271->225|1300->228|1393->294|1421->295|1449->296|1477->297|1505->298|1566->333|1600->358|1645->365|1675->368|1709->376|1744->402|1784->404|1815->408|1893->459|1903->460|1933->469|1960->479|1973->484|2012->485|2043->489|2080->499|2090->500|2120->509|2156->515|2186->519|2232->544|2277->559|2305->560

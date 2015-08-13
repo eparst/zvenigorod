@@ -60,7 +60,7 @@ Das PlayAuthenticate-Team"""))
 object password_reset_de extends password_reset_de_Scope0.password_reset_de
               /*
                   -- GENERATED --
-                  DATE: Wed Aug 12 16:48:53 MSK 2015
+                  DATE: Thu Aug 13 12:42:59 MSK 2015
                   SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/password_reset_de.scala.txt
                   HASH: 75b396aed38b1a1d883d0bc12571d11f2a4c815a
                   MATRIX: 798->1|949->58|980->63|1004->67|1296->334|1318->337|1347->339
