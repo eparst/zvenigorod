@@ -5,14 +5,18 @@ import javax.servlet.http.Cookie;
 
 import play.Play;
 import play.mvc.Http.Cookies;
-@Singleton
+
 public class Sape {
 //    private final String sapeUser;
 	private static String sapeUser = Play.application().configuration().getString("sapeUser");
 	private static String sapeHost = Play.application().configuration().getString("sapeHost");
-	private static Sape sape = new Sape(sapeUser, sapeHost, 1000, 5 * 60);
+//	private static Sape sape = new Sape(sapeUser, sapeHost, 1000, 5 * 60);
+//	private Sape(){};
+	  private static class SingletonHelper{
+		    private static final Sape INSTANCE = new Sape(sapeUser, sapeHost, 1000, 5 * 60);
+		  }
 	public static Sape getSape(){
-		return sape;
+		return SingletonHelper.INSTANCE;
 	}
     private final SapeConnection sapePageLinkConnection;
 

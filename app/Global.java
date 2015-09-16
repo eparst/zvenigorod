@@ -86,7 +86,6 @@ public class Global extends GlobalSettings {
 		sape.debug = true;
 	  SapePageLinks pageLinks = sape.getPageLinks("/", null);
 	  Logger.debug(pageLinks.render());*/
-		Sape.getSape();
 	}
 
 	private void initialData() {
