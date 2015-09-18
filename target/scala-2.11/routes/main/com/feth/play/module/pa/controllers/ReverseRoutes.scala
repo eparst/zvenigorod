@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/conf/routes
-// @DATE:Thu Aug 13 15:34:51 MSK 2015
+// @SOURCE:/home/play/zvenigorod/conf/routes
+// @DATE:Thu Sep 17 13:28:59 UTC 2015
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }

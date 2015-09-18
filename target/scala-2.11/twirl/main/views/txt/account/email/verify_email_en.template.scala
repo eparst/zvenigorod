@@ -56,8 +56,8 @@ The PlayAuthenticate Team"""))
 object verify_email_en extends verify_email_en_Scope0.verify_email_en
               /*
                   -- GENERATED --
-                  DATE: Thu Aug 13 15:34:54 MSK 2015
-                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/verify_email_en.scala.txt
+                  DATE: Thu Sep 17 13:28:50 UTC 2015
+                  SOURCE: /home/play/zvenigorod/app/views/account/email/verify_email_en.scala.txt
                   HASH: 86df724266652ccc3d5f38e0c587599d47499c3d
                   MATRIX: 794->1|957->70|990->77|1014->81|1098->140|1133->155|1161->157
                   LINES: 27->1|32->1|32->1|32->1|36->5|36->5|38->7
