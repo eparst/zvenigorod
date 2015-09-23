@@ -50,8 +50,8 @@ Seq[Any](format.raw/*1.23*/("""
 object _providerIcon extends _providerIcon_Scope0._providerIcon
               /*
                   -- GENERATED --
-                  DATE: Thu Sep 17 13:28:33 UTC 2015
-                  SOURCE: /home/play/zvenigorod/app/views/_providerIcon.scala.html
+                  DATE: Tue Sep 22 13:52:44 MSK 2015
+                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/_providerIcon.scala.html
                   HASH: 0b5a1b4f4fe4f3c817444b7900c0337ccaa99633
                   MATRIX: 761->1|877->22|904->23|941->34|972->45|1000->46|1040->60|1071->71|1105->79|1119->85|1192->137
                   LINES: 27->1|32->1|33->2|33->2|33->2|33->2|33->2|33->2|33->2|33->2|33->2

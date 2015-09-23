@@ -59,8 +59,8 @@ Seq[Any](_display_(/*1.2*/main(Messages("playauthenticate.verify.email.title"))/
 object unverified extends unverified_Scope0.unverified
               /*
                   -- GENERATED --
-                  DATE: Thu Sep 17 13:28:45 UTC 2015
-                  SOURCE: /home/play/zvenigorod/app/views/account/signup/unverified.scala.html
+                  DATE: Tue Sep 22 13:52:45 MSK 2015
+                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/signup/unverified.scala.html
                   HASH: e197f291fc130d67e725bbf05a05c0bb0a8a2308
                   MATRIX: 852->1|913->54|952->56|981->59|1011->64|1078->111|1117->125|1190->178|1224->187|1289->232|1317->234|1362->249
                   LINES: 32->1|32->1|32->1|34->3|34->3|34->3|36->5|36->5|37->6|37->6|38->7|41->10

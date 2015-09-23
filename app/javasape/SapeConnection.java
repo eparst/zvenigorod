@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import play.Logger;
+//import play.Logger;
 
 //import org.apache.log4j.Logger;
 
@@ -82,13 +82,13 @@ public class SapeConnection {
                 try {
                     data = fetchRemoteFile(server, dispenserPath + "&charset=UTF-8");
                 } catch (IOException e1) {
-                	Logger.debug(server,e1); // from me
+//                	Logger.debug(server,e1); // from me
                     continue;
                 }
                 
                 if (data.startsWith("FATAL ERROR:")) {
 //                    log.error("Sape responded with error: " + data);
-                	Logger.debug(server + ": Sape responded with error: " + data);
+//                	Logger.debug(server + ": Sape responded with error: " + data);
                     
                     continue;
                 }
@@ -97,7 +97,7 @@ public class SapeConnection {
                     cached = (Map<String, Object>) new SerializedPhpParser(data).parse();
                 } catch(Exception e) {
 //                    log.error("Can't parse Sape data", e);
-                	Logger.debug("Can't parse Sape data", e);
+//                	Logger.debug("Can't parse Sape data", e);
                     continue;
                 }
                 
@@ -107,7 +107,7 @@ public class SapeConnection {
             }
             
 //            log.error("Unable to fetch Sape data");
-            Logger.debug("Unable to fetch Sape data from ");
+//            Logger.debug("Unable to fetch Sape data from ");
             
             return new HashMap<String, Object>();
         }

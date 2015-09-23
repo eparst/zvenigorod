@@ -64,10 +64,10 @@ Seq[Any](format.raw/*1.44*/("""
 object _emailPartial extends _emailPartial_Scope0._emailPartial
               /*
                   -- GENERATED --
-                  DATE: Thu Sep 17 13:28:39 UTC 2015
-                  SOURCE: /home/play/zvenigorod/app/views/_emailPartial.scala.html
+                  DATE: Tue Sep 22 13:52:44 MSK 2015
+                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/_emailPartial.scala.html
                   HASH: 9ee10128c4ebc8555e3a27831c97f9ba74e16313
-                  MATRIX: 841->1|985->63|1017->87|1096->43|1125->136|1153->139|1301->267
+                  MATRIX: 843->1|987->63|1019->87|1098->43|1127->136|1155->139|1303->267
                   LINES: 29->1|33->4|33->4|34->1|36->4|38->6|42->10
                   -- GENERATED --
               */

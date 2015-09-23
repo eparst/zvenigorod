@@ -51,8 +51,8 @@ Seq[Any](format.raw/*1.39*/("""
 object comments extends comments_Scope0.comments
               /*
                   -- GENERATED --
-                  DATE: Thu Sep 17 13:28:41 UTC 2015
-                  SOURCE: /home/play/zvenigorod/app/views/comments.scala.html
+                  DATE: Tue Sep 22 13:52:43 MSK 2015
+                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/comments.scala.html
                   HASH: ed4388be92b51eb20bc3d0e4169debc5457395a0
                   MATRIX: 763->1|895->38
                   LINES: 27->1|32->1

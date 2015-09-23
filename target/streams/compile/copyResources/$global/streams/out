@@ -2,6 +2,7 @@
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\application-logger.xml,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\application-logger.xml)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\application.conf,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\application.conf)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\Copy of initial-data.yml,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\Copy of initial-data.yml)[0m
+[0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\ec2.conf,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\ec2.conf)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\evolutions,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\evolutions)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\initial-data.yml,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\initial-data.yml)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\messages.de,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\messages.de)[0m
@@ -15,6 +16,7 @@
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\openshift.conf,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\openshift.conf)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\play-authenticate,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\play-authenticate)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\play.plugins,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\play.plugins)[0m
+[0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\prod-logger-ec2.xml,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\prod-logger-ec2.xml)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\routes,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\routes)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\zvenigorod.yml,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\zvenigorod.yml)[0m
 [0m[[0mdebug[0m] [0m	(C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\conf\evolutions\default,C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod\target\scala-2.11\classes\evolutions\default)[0m

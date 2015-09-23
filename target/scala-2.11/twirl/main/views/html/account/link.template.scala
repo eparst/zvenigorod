@@ -58,8 +58,8 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.link.account.title"))/
 object link extends link_Scope0.link
               /*
                   -- GENERATED --
-                  DATE: Thu Sep 17 13:28:44 UTC 2015
-                  SOURCE: /home/play/zvenigorod/app/views/account/link.scala.html
+                  DATE: Tue Sep 22 13:52:44 MSK 2015
+                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/link.scala.html
                   HASH: 9352bd2d361bd9a8c26d16d11c31d7d6bb917e43
                   MATRIX: 833->2|894->55|933->57|969->67|1000->72|1067->119|1113->140|1151->158|1182->163|1228->179
                   LINES: 32->2|32->2|32->2|34->4|34->4|34->4|37->7|37->7|38->8|40->10
