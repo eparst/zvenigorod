@@ -63,8 +63,8 @@ Seq[Any](format.raw/*1.59*/("""
 object password_reset_pl extends password_reset_pl_Scope0.password_reset_pl
               /*
                   -- GENERATED --
-                  DATE: Tue Sep 22 13:52:44 MSK 2015
-                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/password_reset_pl.scala.html
+                  DATE: Sun Feb 21 18:04:52 MSK 2016
+                  SOURCE: C:/j/2015_10/zvenigorod/app/views/account/email/password_reset_pl.scala.html
                   HASH: 73e3b63f4eb7056f5d9cf8ee6accecdff882d023
                   MATRIX: 804->1|956->58|983->59|1015->66|1039->70|1273->277|1297->280
                   LINES: 27->1|32->1|33->2|33->2|33->2|41->10|41->10

@@ -1,2 +1,2 @@
-cd C:\Lotus\admin\distr\OS\tmp\Downloads\zvenigorod\zvenigorod
+cd C:\j\2015_10\zvenigorod
 cmd.exe

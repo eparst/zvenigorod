@@ -65,8 +65,8 @@ Atentamente,<br />
 object password_reset_es extends password_reset_es_Scope0.password_reset_es
               /*
                   -- GENERATED --
-                  DATE: Tue Sep 22 13:52:44 MSK 2015
-                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/account/email/password_reset_es.scala.html
+                  DATE: Sun Feb 21 18:04:52 MSK 2016
+                  SOURCE: C:/j/2015_10/zvenigorod/app/views/account/email/password_reset_es.scala.html
                   HASH: d902656bde7b683b7160cfc24819bef97ad8ca56
                   MATRIX: 804->1|956->58|983->59|1014->65|1038->69|1349->353|1374->356
                   LINES: 27->1|32->1|33->2|33->2|33->2|41->10|41->10

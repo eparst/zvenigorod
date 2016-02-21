@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/conf/routes
-// @DATE:Tue Sep 22 13:52:41 MSK 2015
+// @SOURCE:C:/j/2015_10/zvenigorod/conf/routes
+// @DATE:Sun Feb 21 18:04:50 MSK 2016
 
 package router
 

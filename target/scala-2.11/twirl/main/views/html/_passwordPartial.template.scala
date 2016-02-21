@@ -70,8 +70,8 @@ Seq[Any](format.raw/*1.14*/("""
 object _passwordPartial extends _passwordPartial_Scope0._passwordPartial
               /*
                   -- GENERATED --
-                  DATE: Tue Sep 22 13:52:44 MSK 2015
-                  SOURCE: C:/Lotus/admin/distr/OS/tmp/Downloads/zvenigorod/zvenigorod/app/views/_passwordPartial.scala.html
+                  DATE: Sun Feb 21 18:04:52 MSK 2016
+                  SOURCE: C:/j/2015_10/zvenigorod/app/views/_passwordPartial.scala.html
                   HASH: 2c449be7db6e965559e85df9fc9b2ef640069bb0
                   MATRIX: 841->1|955->33|987->57|1066->13|1095->106|1137->122|1300->265|1343->281|1600->517
                   LINES: 29->1|33->4|33->4|34->1|36->4|38->6|41->9|43->11|48->16
