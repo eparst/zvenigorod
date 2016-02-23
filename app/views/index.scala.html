@@ -2,14 +2,16 @@
 @main(Messages("playauthenticate.index.title")) {
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" >
-       <!--  <h1>@Messages("playauthenticate.index.intro")</h1>-->
+       @*@Messages("playauthenticate.index.intro")</h1>*@
       </div>
-      @Messages("Р РµРєР»Р°РјР°: ") 
+     @* @Messages("Реклама: ") 
 @sape.getPageLinks(request.uri,request.cookies).render()
-@*@sape.render()*@
+@sape.render()*@
+		@Html(front.getContent)
       <!-- Example row of columns -->
       <div class="row">
-      @for(i <- 0 to 2) {
+     @* @display(front, mode = "full")	*@
+      @for(i <- 1 to 3) {
         <div class="col-xs-6 col-sm-4">
         @defining(CdnAssets.changeImageUrl(older.get(i).htmlPreview)){ prev =>
           		<h2>@older.get(i).title</h2>
@@ -29,7 +31,7 @@
     
     @Option(older).filterNot(_.isEmpty).map{ posts => 
       <div class="older-posts">
-        <h3>@Messages("Р”СЂСѓРіРёРµ РЅРѕРІРѕСЃС‚Рё:")</h3>
+        <h3>@Messages("Другие новости:")</h3>
         @posts.map { post =>
           @display(post, mode = "teaser")
         }
@@ -37,15 +39,15 @@
     }
   }.getOrElse {
     <div class="empty">
-      РќРµС‚ РЅРѕРІРѕСЃС‚РµР№ РЅР° СЃРµРіРѕРґРЅСЏ
+      Нет новостей на сегодня
     </div>
-    }*@
+    }
     <div class="older-posts">
-        <h3>@Messages("Р”СЂСѓРіРёРµ РЅРѕРІРѕСЃС‚Рё:")</h3>
+        <h3>@Messages("Другие новости:")</h3>
          @for(i <- 3 to 7) {
          	@display(older.get(i), mode = "teaser")
          }        
-       </div>@*
+       </div>
         <div class="older-posts">
         <h3>@Messages("playauthenticate.index.weite")</h3>
          @for(i <- 8 to older.size-1) {

@@ -5,10 +5,10 @@
         <div class="container">
         <div class="jumbotron" >
         </div> <!-- jumbotron --> 
-        @Messages("Р РµРєР»Р°РјР°: ") 
-@sape.getPageLinks(request.uri,request.cookies).render(3)
+       @* @Messages("Реклама: ") 
+@sape.getPageLinks(request.uri,request.cookies).render(3)*@
 @main(post.title){
-<!--   <ul id="pagination">
+@*  <ul id="pagination">
       @if(!Option(post previous).isEmpty) {
         <li id="previous">
           <a href="@routes.Application.show(post.previous.id)">
@@ -23,7 +23,7 @@
           </a>
          <li>
         }
-    </ul> -->
+    </ul> *@
     @if(flash.contains("success")) {
       <p class="success">@flash.get("success")</p>
     }
@@ -58,7 +58,7 @@
           </p>
            *@
           <p>
-            <input type="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" />
+            <input type="submit" value="Send" />
           </p>
       </fieldset>
       			}

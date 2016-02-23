@@ -36,7 +36,7 @@ h1 {
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
-  background-image: url('http://zv-cdn.appspot.com/static/zv/templates/siteground-j15-93/images/headerimg960.png')
+  background-image: url('../images/headerimg960.png')
 }
 .container {
   max-width: 960px;
@@ -49,5 +49,5 @@ footer{
   text-align: center;
   color: #d5d1e7;
   padding: 4px 10px 0;
-	background: url('http://zv-cdn.appspot.com/static/zv/templates/siteground-j15-93/images/footer_bg960.png')
+	background: url('')
 }

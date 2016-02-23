@@ -18,3 +18,6 @@ zv.dump
 zvWin1251.dump
 activator.bat
 activator
+/lib/com.typesafe.activator.activator-dist-1.3.5.jar
+/lib/org.scala-lang.scala-library-2.11.6.jar
+/app/views/*ZV.*

@@ -39,7 +39,7 @@ public class CdnAssets  { //extends Controller
 			return strb.toString();// .replace("\"\"", "\"").replace("//",
 								// "/").replace("http:/", "http://");
 		}else{
-			Logger.debug("No CdnUrl found in Aplication.conf");
+	//		Logger.debug("No CdnUrl found in Aplication.conf");
 			return s;
 		}
 	}

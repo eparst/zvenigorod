@@ -63,7 +63,7 @@ Seq[Any](format.raw/*1.59*/("""
 object password_reset_pt extends password_reset_pt_Scope0.password_reset_pt
               /*
                   -- GENERATED --
-                  DATE: Sun Feb 21 18:04:52 MSK 2016
+                  DATE: Mon Feb 22 23:51:39 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/email/password_reset_pt.scala.html
                   HASH: 99cd27c2c7d2715f873719d3e1ec5f5a95823364
                   MATRIX: 804->1|956->58|984->60|1014->65|1038->69|1309->313|1333->316

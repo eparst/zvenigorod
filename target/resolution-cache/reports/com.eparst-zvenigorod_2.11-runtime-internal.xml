@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160221180402"/>
+		date="20160222235137"/>
 	<dependencies>
 		<module organisation="org.webjars" name="bootstrap">
 			<revision name="3.2.0" status="release" pubdate="20140626210711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="96">
@@ -93,25 +93,25 @@
 			</revision>
 		</module>
 		<module organisation="com.feth" name="play-authenticate_2.11">
-			<revision name="0.7.1" status="release" pubdate="20160221180408" resolver="public" artresolver="public" homepage="http://joscha.github.io/play-authenticate" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+			<revision name="0.7.1" status="release" pubdate="20160221180408" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joscha.github.io/play-authenticate" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="3546" time="385" location="C:\Users\eparst\.ivy2\cache\com.feth\play-authenticate_2.11\ivy-0.7.1.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.feth\play-authenticate_2.11\ivy-0.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/feth/play-authenticate_2.11/0.7.1/play-authenticate_2.11-0.7.1.pom"/>
+				<metadata-artifact status="no" details="" size="4249" time="0" location="C:\Users\eparst\.ivy2\cache\com.feth\play-authenticate_2.11\ivy-0.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/feth/play-authenticate_2.11/0.7.1/play-authenticate_2.11-0.7.1.pom"/>
 				<caller organisation="com.eparst" name="zvenigorod_2.11" conf="compile, runtime-internal, runtime, optional" rev="0.7.1" rev-constraint-default="0.7.1" rev-constraint-dynamic="0.7.1" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-authenticate_2.11" type="jar" ext="jar" status="successful" details="" size="172765" time="1457" location="C:\Users\eparst\.ivy2\cache\com.feth\play-authenticate_2.11\jars\play-authenticate_2.11-0.7.1.jar">
+					<artifact name="play-authenticate_2.11" type="jar" ext="jar" status="no" details="" size="172765" time="0" location="C:\Users\eparst\.ivy2\cache\com.feth\play-authenticate_2.11\jars\play-authenticate_2.11-0.7.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/feth/play-authenticate_2.11/0.7.1/play-authenticate_2.11-0.7.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-java-ws_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040534" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="86">
+			<revision name="2.4.3" status="release" pubdate="20150907040534" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="86">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="3791" time="392" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-ws_2.11/2.4.3/play-java-ws_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="4217" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-ws_2.11/2.4.3/play-java-ws_2.11-2.4.3.pom"/>
 				<caller organisation="com.feth" name="play-authenticate_2.11" conf="default, compile, runtime, master" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="0.7.1"/>
 				<caller organisation="com.eparst" name="zvenigorod_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-java-ws_2.11" type="jar" ext="jar" status="successful" details="" size="27278" time="652" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar">
+					<artifact name="play-java-ws_2.11" type="jar" ext="jar" status="no" details="" size="27278" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java-ws_2.11\jars\play-java-ws_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-ws_2.11/2.4.3/play-java-ws_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -124,12 +124,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-ws_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040539" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+			<revision name="2.4.3" status="release" pubdate="20150907040539" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="3631" time="382" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-ws_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-ws_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="4032" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-ws_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play-java-ws_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play-ws_2.11" type="jar" ext="jar" status="successful" details="" size="592450" time="823" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar">
+					<artifact name="play-ws_2.11" type="jar" ext="jar" status="no" details="" size="592450" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-ws_2.11\jars\play-ws_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.11/2.4.3/play-ws_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -174,14 +174,14 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-cache_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040513" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="85">
+			<revision name="2.4.3" status="release" pubdate="20150907040513" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="85">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2685" time="392" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-cache_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-cache_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="3346" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-cache_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3.pom"/>
 				<caller organisation="com.feth" name="play-authenticate_2.11" conf="default, compile, runtime, master" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="0.7.1"/>
 				<caller organisation="be.objectify" name="deadbolt-java_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.eparst" name="zvenigorod_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="play-cache_2.11" type="jar" ext="jar" status="successful" details="" size="74204" time="557" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar">
+					<artifact name="play-cache_2.11" type="jar" ext="jar" status="no" details="" size="74204" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-cache_2.11\jars\play-cache_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-cache_2.11/2.4.3/play-cache_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -209,12 +209,12 @@
 			</revision>
 		</module>
 		<module organisation="com.feth" name="play-easymail_2.11">
-			<revision name="0.7.0" status="release" pubdate="20151031010243" resolver="public" artresolver="public" homepage="https://github.com/joscha/play-easymail/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+			<revision name="0.7.0" status="release" pubdate="20151031010243" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/joscha/play-easymail/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2636" time="579" location="C:\Users\eparst\.ivy2\cache\com.feth\play-easymail_2.11\ivy-0.7.0.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.feth\play-easymail_2.11\ivy-0.7.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/feth/play-easymail_2.11/0.7.0/play-easymail_2.11-0.7.0.pom"/>
+				<metadata-artifact status="no" details="" size="3498" time="0" location="C:\Users\eparst\.ivy2\cache\com.feth\play-easymail_2.11\ivy-0.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/feth/play-easymail_2.11/0.7.0/play-easymail_2.11-0.7.0.pom"/>
 				<caller organisation="com.feth" name="play-authenticate_2.11" conf="default, compile, runtime, master" rev="0.7.0" rev-constraint-default="0.7.0" rev-constraint-dynamic="0.7.0" callerrev="0.7.1"/>
 				<artifacts>
-					<artifact name="play-easymail_2.11" type="jar" ext="jar" status="successful" details="" size="9647" time="453" location="C:\Users\eparst\.ivy2\cache\com.feth\play-easymail_2.11\jars\play-easymail_2.11-0.7.0.jar">
+					<artifact name="play-easymail_2.11" type="jar" ext="jar" status="no" details="" size="9647" time="0" location="C:\Users\eparst\.ivy2\cache\com.feth\play-easymail_2.11\jars\play-easymail_2.11-0.7.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/feth/play-easymail_2.11/0.7.0/play-easymail_2.11-0.7.0.jar"/>
 					</artifact>
 				</artifacts>
@@ -291,16 +291,16 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-netty-server_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040558" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="74">
+			<revision name="2.4.3" status="release" pubdate="20150907040558" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="74">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2680" time="425" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="3396" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3.pom"/>
 				<caller organisation="com.feth" name="play-authenticate_2.11" conf="default, compile, runtime, master" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="0.7.1"/>
 				<caller organisation="com.feth" name="play-easymail_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.7.0"/>
 				<caller organisation="be.objectify" name="deadbolt-java_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.eparst" name="zvenigorod_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="be.objectify" name="deadbolt-core_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.1"/>
 				<artifacts>
-					<artifact name="play-netty-server_2.11" type="jar" ext="jar" status="successful" details="" size="213275" time="1156" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar">
+					<artifact name="play-netty-server_2.11" type="jar" ext="jar" status="no" details="" size="213275" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-server_2.11/2.4.3/play-netty-server_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -318,15 +318,15 @@
 			</revision>
 		</module>
 		<module organisation="io.netty" name="netty">
-			<revision name="3.10.4.Final" status="release" pubdate="20150630162840" resolver="public" artresolver="public" homepage="http://netty.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+			<revision name="3.10.4.Final" status="release" pubdate="20150630162840" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="28829" time="502" location="C:\Users\eparst\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
+				<metadata-artifact status="no" details="" size="7136" time="0" location="C:\Users\eparst\.ivy2\cache\io.netty\netty\ivy-3.10.4.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.pom"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="compile, runtime" rev="3.10.4.Final" rev-constraint-default="3.10.4.Final" rev-constraint-dynamic="3.10.4.Final" callerrev="2.4.3"/>
 				<caller organisation="com.ning" name="async-http-client" conf="compile, runtime" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.9.21"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="default, compile, runtime, master" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.netty" name="netty-http-pipelining" conf="compile, runtime" rev="3.10.1.Final" rev-constraint-default="3.10.1.Final" rev-constraint-dynamic="3.10.1.Final" callerrev="1.1.4"/>
 				<artifacts>
-					<artifact name="netty" type="bundle" ext="jar" status="successful" details="" size="1330395" time="1415" location="C:\Users\eparst\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar">
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1330395" time="0" location="C:\Users\eparst\.ivy2\cache\io.netty\netty\bundles\netty-3.10.4.Final.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.4.Final/netty-3.10.4.Final.jar"/>
 					</artifact>
 				</artifacts>
@@ -349,9 +349,9 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-java_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040518" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="73">
+			<revision name="2.4.3" status="release" pubdate="20150907040518" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="73">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="7212" time="381" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.4.3/play-java_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="6569" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.4.3/play-java_2.11-2.4.3.pom"/>
 				<caller organisation="com.feth" name="play-authenticate_2.11" conf="default, compile, runtime, master" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="0.7.1"/>
 				<caller organisation="com.feth" name="play-easymail_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.7.0"/>
 				<caller organisation="be.objectify" name="deadbolt-java_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
@@ -360,7 +360,7 @@
 				<caller organisation="com.eparst" name="zvenigorod_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="be.objectify" name="deadbolt-core_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.1"/>
 				<artifacts>
-					<artifact name="play-java_2.11" type="jar" ext="jar" status="successful" details="" size="114431" time="912" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar">
+					<artifact name="play-java_2.11" type="jar" ext="jar" status="no" details="" size="114431" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-java_2.11\jars\play-java_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.11/2.4.3/play-java_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -379,9 +379,9 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-server_2.11">
-			<revision name="2.4.3" status="release" pubdate="20160221180409" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="56">
+			<revision name="2.4.3" status="release" pubdate="20160221180409" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="56">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2684" time="420" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-server_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-server_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="3345" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-server_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3.pom"/>
 				<caller organisation="com.feth" name="play-authenticate_2.11" conf="default, compile, runtime, master" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="0.7.1"/>
 				<caller organisation="com.feth" name="play-easymail_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="0.7.0"/>
 				<caller organisation="com.typesafe.play" name="play-netty-server_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
@@ -390,7 +390,7 @@
 				<caller organisation="com.eparst" name="zvenigorod_2.11" conf="compile, runtime-internal, runtime, optional" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="be.objectify" name="deadbolt-core_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.1"/>
 				<artifacts>
-					<artifact name="play-server_2.11" type="jar" ext="jar" status="successful" details="" size="251537" time="1643" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar">
+					<artifact name="play-server_2.11" type="jar" ext="jar" status="no" details="" size="251537" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.11/2.4.3/play-server_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -409,9 +409,9 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040530" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+			<revision name="2.4.3" status="release" pubdate="20150907040530" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="8603" time="430" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="7974" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play-java_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play-ws_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<caller organisation="com.typesafe.play" name="play-server_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
@@ -422,7 +422,7 @@
 				<caller organisation="com.typesafe.play" name="play-cache_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<caller organisation="com.typesafe.play" name="play-java_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play_2.11" type="jar" ext="jar" status="successful" details="" size="3797010" time="4663" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar">
+					<artifact name="play_2.11" type="jar" ext="jar" status="no" details="" size="3797010" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.11/2.4.3/play_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -440,13 +440,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.11">
-			<revision name="2.3.13" status="release" pubdate="20150903143738" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+			<revision name="2.3.13" status="release" pubdate="20150903143738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="2537" time="357" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\ivy-2.3.13.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\ivy-2.3.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.pom"/>
+				<metadata-artifact status="no" details="" size="3112" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="akka-slf4j_2.11" type="jar" ext="jar" status="successful" details="" size="15457" time="473" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar">
+					<artifact name="akka-slf4j_2.11" type="jar" ext="jar" status="no" details="" size="15457" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.3.13.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.11/2.3.13/akka-slf4j_2.11-2.3.13.jar"/>
 					</artifact>
 				</artifacts>
@@ -460,15 +460,15 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
-			<revision name="2.3.13" status="release" pubdate="20160221180414" resolver="public" artresolver="public" homepage="http://akka.io/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+			<revision name="2.3.13" status="release" pubdate="20160221180414" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
 				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
-				<metadata-artifact status="successful" details="" size="1925" time="388" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.13.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.pom"/>
+				<metadata-artifact status="no" details="" size="2700" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\ivy-2.3.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="compile, runtime" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="2.3.13"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.11" conf="compile, runtime" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="2.3.11"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.3.11" rev-constraint-default="2.3.11" rev-constraint-dynamic="2.3.11" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.3.13" rev-constraint-default="2.3.13" rev-constraint-dynamic="2.3.13" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="successful" details="" size="2792981" time="2590" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar">
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2792981" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.3.13.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.3.13/akka-actor_2.11-2.3.13.jar"/>
 					</artifact>
 				</artifacts>
@@ -483,13 +483,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-netty-utils">
-			<revision name="2.4.3" status="release" pubdate="20150907040045" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+			<revision name="2.4.3" status="release" pubdate="20150907040045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1848" time="340" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-utils\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-utils\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="2844" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-utils\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play-netty-utils" type="jar" ext="jar" status="successful" details="" size="19423" time="424" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar">
+					<artifact name="play-netty-utils" type="jar" ext="jar" status="no" details="" size="19423" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-netty-utils/2.4.3/play-netty-utils-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -503,13 +503,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-json_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040236" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+			<revision name="2.4.3" status="release" pubdate="20150907040236" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="4168" time="353" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-json_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-json_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="4644" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-json_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play-json_2.11" type="jar" ext="jar" status="successful" details="" size="619401" time="2185" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar">
+					<artifact name="play-json_2.11" type="jar" ext="jar" status="no" details="" size="619401" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.11/2.4.3/play-json_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -692,13 +692,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-datacommons_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040155" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+			<revision name="2.4.3" status="release" pubdate="20150907040155" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1516" time="342" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="2577" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play-datacommons_2.11" type="jar" ext="jar" status="successful" details="" size="5613" time="389" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar">
+					<artifact name="play-datacommons_2.11" type="jar" ext="jar" status="no" details="" size="5613" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-datacommons_2.11/2.4.3/play-datacommons_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -712,13 +712,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-functional_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040205" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+			<revision name="2.4.3" status="release" pubdate="20150907040205" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1513" time="379" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="2574" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-functional_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play-functional_2.11" type="jar" ext="jar" status="successful" details="" size="401129" time="849" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar">
+					<artifact name="play-functional_2.11" type="jar" ext="jar" status="no" details="" size="401129" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.11/2.4.3/play-functional_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -732,9 +732,9 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-iteratees_2.11">
-			<revision name="2.4.3" status="release" pubdate="20150907040214" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+			<revision name="2.4.3" status="release" pubdate="20150907040214" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="2472" time="353" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="3218" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play-server_2.11" conf="default, compile, runtime, master" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play-server_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
@@ -742,7 +742,7 @@
 				<caller organisation="com.typesafe.play" name="play-json_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="play-iteratees_2.11" type="jar" ext="jar" status="successful" details="" size="766426" time="1097" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar">
+					<artifact name="play-iteratees_2.11" type="jar" ext="jar" status="no" details="" size="766426" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-iteratees_2.11/2.4.3/play-iteratees_2.11-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -758,13 +758,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="build-link">
-			<revision name="2.4.3" status="release" pubdate="20150907040040" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+			<revision name="2.4.3" status="release" pubdate="20150907040040" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1673" time="363" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\build-link\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\build-link\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="2699" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\build-link\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<artifacts>
-					<artifact name="build-link" type="jar" ext="jar" status="successful" details="" size="3364" time="447" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar">
+					<artifact name="build-link" type="jar" ext="jar" status="no" details="" size="3364" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.4.3/build-link-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -778,13 +778,13 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.play" name="play-exceptions">
-			<revision name="2.4.3" status="release" pubdate="20150907040042" resolver="public" artresolver="public" homepage="https://playframework.com" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+			<revision name="2.4.3" status="release" pubdate="20150907040042" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
 				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
-				<metadata-artifact status="successful" details="" size="1291" time="364" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.4.3.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.4.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3.pom"/>
+				<metadata-artifact status="no" details="" size="2381" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.4.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3.pom"/>
 				<caller organisation="com.typesafe.play" name="build-link" conf="compile, runtime" rev="2.4.3" rev-constraint-default="2.4.3" rev-constraint-dynamic="2.4.3" callerrev="2.4.3"/>
 				<caller organisation="com.typesafe.play" name="build-link" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="2.4.0"/>
 				<artifacts>
-					<artifact name="play-exceptions" type="jar" ext="jar" status="successful" details="" size="4597" time="479" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar">
+					<artifact name="play-exceptions" type="jar" ext="jar" status="no" details="" size="4597" time="0" location="C:\Users\eparst\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.4.3.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.4.3/play-exceptions-2.4.3.jar"/>
 					</artifact>
 				</artifacts>
@@ -1246,8 +1246,8 @@
 			</revision>
 		</module>
 		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
-			<revision name="4.0" status="release" pubdate="20160221180407" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
-				<metadata-artifact status="successful" details="" size="549" time="398" location="C:\Users\eparst\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
+			<revision name="4.0" status="release" pubdate="20160222235142" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<metadata-artifact status="successful" details="" size="549" time="387" location="C:\Users\eparst\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml" searched="true" original-local-location="C:\Users\eparst\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="2.4.0"/>
 				<caller organisation="com.typesafe.play" name="play_2.11" conf="compile, runtime" rev="4.0" rev-constraint-default="4.0" rev-constraint-dynamic="4.0" callerrev="2.4.3"/>
 				<artifacts>

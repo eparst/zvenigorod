@@ -33,35 +33,29 @@ Seq[Any](format.raw/*1.55*/("""
 """),_display_(/*2.2*/main(Messages("playauthenticate.index.title"))/*2.48*/ {_display_(Seq[Any](format.raw/*2.50*/("""
       """),format.raw/*3.7*/("""<!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron" >
-       <!--  <h1>"""),_display_(/*5.19*/Messages("playauthenticate.index.intro")),format.raw/*5.59*/("""</h1>-->
-      </div>
-      """),_display_(/*7.8*/Messages("Реклама: ")),format.raw/*7.29*/(""" 
-"""),_display_(/*8.2*/sape/*8.6*/.getPageLinks(request.uri,request.cookies).render()),format.raw/*8.57*/("""
-"""),format.raw/*9.19*/("""
-      """),format.raw/*10.7*/("""<!-- Example row of columns -->
+       """),format.raw/*5.58*/("""
+      """),format.raw/*6.7*/("""</div>
+     """),format.raw/*9.17*/("""
+		"""),_display_(/*10.4*/Html(front.getContent)),format.raw/*10.26*/("""
+      """),format.raw/*11.7*/("""<!-- Example row of columns -->
       <div class="row">
-      """),_display_(/*12.8*/for(i <- 0 to 2) yield /*12.24*/ {_display_(Seq[Any](format.raw/*12.26*/("""
-        """),format.raw/*13.9*/("""<div class="col-xs-6 col-sm-4">
-        """),_display_(/*14.10*/defining(CdnAssets.changeImageUrl(older.get(i).htmlPreview))/*14.70*/{ prev =>_display_(Seq[Any](format.raw/*14.79*/("""
-          		"""),format.raw/*15.13*/("""<h2>"""),_display_(/*15.18*/older/*15.23*/.get(i).title),format.raw/*15.36*/("""</h2>
-				<p>"""),_display_(/*16.9*/if(prev != null)/*16.25*/{_display_(_display_(/*16.27*/Html(prev)))}/*16.38*/else/*16.42*/{_display_(Seq[Any](format.raw/*16.43*/("""
-							"""),_display_(/*17.9*/defining(CdnAssets.changeImageUrl(older.get(i).content))/*17.65*/{ cont =>_display_(Seq[Any](format.raw/*17.74*/("""
-					"""),_display_(/*18.7*/if(cont.length() > 150)/*18.30*/{_display_(Seq[Any](_display_(/*18.32*/Html(cont.substring(1, 150))),format.raw/*18.60*/("""...""")))}/*18.64*/else/*18.68*/{_display_(_display_(/*18.70*/Html(cont)))}),format.raw/*18.81*/("""
-				""")))}),format.raw/*19.6*/("""</p>
-			""")))}),format.raw/*20.5*/("""
-		""")))}),format.raw/*21.4*/("""
-          """),format.raw/*22.11*/("""<a class="btn" href=""""),_display_(/*22.33*/routes/*22.39*/.Application.show(older.get(i).id)),format.raw/*22.73*/("""">"""),_display_(/*22.76*/Messages("playauthenticate.index.weite")),format.raw/*22.116*/(""" """),format.raw/*22.117*/("""&raquo;</a></p>
-       </div>""")))}),format.raw/*23.15*/("""
-      """),format.raw/*24.7*/("""</div>
+     """),format.raw/*13.42*/("""
+      """),_display_(/*14.8*/for(i <- 1 to 3) yield /*14.24*/ {_display_(Seq[Any](format.raw/*14.26*/("""
+        """),format.raw/*15.9*/("""<div class="col-xs-6 col-sm-4">
+        """),_display_(/*16.10*/defining(CdnAssets.changeImageUrl(older.get(i).htmlPreview))/*16.70*/{ prev =>_display_(Seq[Any](format.raw/*16.79*/("""
+          		"""),format.raw/*17.13*/("""<h2>"""),_display_(/*17.18*/older/*17.23*/.get(i).title),format.raw/*17.36*/("""</h2>
+				<p>"""),_display_(/*18.9*/if(prev != null)/*18.25*/{_display_(_display_(/*18.27*/Html(prev)))}/*18.38*/else/*18.42*/{_display_(Seq[Any](format.raw/*18.43*/("""
+							"""),_display_(/*19.9*/defining(CdnAssets.changeImageUrl(older.get(i).content))/*19.65*/{ cont =>_display_(Seq[Any](format.raw/*19.74*/("""
+					"""),_display_(/*20.7*/if(cont.length() > 150)/*20.30*/{_display_(Seq[Any](_display_(/*20.32*/Html(cont.substring(1, 150))),format.raw/*20.60*/("""...""")))}/*20.64*/else/*20.68*/{_display_(_display_(/*20.70*/Html(cont)))}),format.raw/*20.81*/("""
+				""")))}),format.raw/*21.6*/("""</p>
+			""")))}),format.raw/*22.5*/("""
+		""")))}),format.raw/*23.4*/("""
+          """),format.raw/*24.11*/("""<a class="btn" href=""""),_display_(/*24.33*/routes/*24.39*/.Application.show(older.get(i).id)),format.raw/*24.73*/("""">"""),_display_(/*24.76*/Messages("playauthenticate.index.weite")),format.raw/*24.116*/(""" """),format.raw/*24.117*/("""&raquo;</a></p>
+       </div>""")))}),format.raw/*25.15*/("""
+      """),format.raw/*26.7*/("""</div>
        <!-- from yabe -->
-       """),format.raw/*42.8*/("""
-    """),format.raw/*43.5*/("""<div class="older-posts">
-        <h3>"""),_display_(/*44.14*/Messages("Другие новости:")),format.raw/*44.41*/("""</h3>
-         """),_display_(/*45.11*/for(i <- 3 to 7) yield /*45.27*/ {_display_(Seq[Any](format.raw/*45.29*/("""
-         	"""),_display_(/*46.12*/display(older.get(i), mode = "teaser")),format.raw/*46.50*/("""
-         """)))}),format.raw/*47.11*/("""        
-       """),format.raw/*48.8*/("""</div>"""),format.raw/*54.16*/("""
-  """)))}),format.raw/*55.4*/("""
+       """),format.raw/*56.16*/("""
+  """)))}),format.raw/*57.4*/("""
     
 """))
       }
@@ -83,11 +77,11 @@ Seq[Any](format.raw/*1.55*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sun Feb 21 18:04:51 MSK 2016
+                  DATE: Tue Feb 23 02:06:51 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/index.scala.html
-                  HASH: d61a564772db57c9fa641d87e767b460d28eae31
-                  MATRIX: 768->1|916->54|944->57|998->103|1037->105|1071->113|1222->238|1282->278|1338->309|1379->330|1408->334|1419->338|1490->389|1519->409|1554->417|1645->482|1677->498|1717->500|1754->510|1823->552|1892->612|1939->621|1981->635|2013->640|2027->645|2061->658|2102->673|2127->689|2157->691|2179->702|2192->706|2231->707|2267->717|2332->773|2379->782|2413->790|2445->813|2484->815|2533->843|2556->847|2569->851|2599->853|2633->864|2670->871|2710->881|2745->886|2785->898|2834->920|2849->926|2904->960|2934->963|2996->1003|3026->1004|3088->1035|3123->1043|3192->1504|3225->1510|3292->1550|3340->1577|3384->1594|3416->1610|3456->1612|3496->1625|3555->1663|3598->1675|3642->1692|3676->1962|3711->1967
-                  LINES: 27->1|32->1|33->2|33->2|33->2|34->3|36->5|36->5|38->7|38->7|39->8|39->8|39->8|40->9|41->10|43->12|43->12|43->12|44->13|45->14|45->14|45->14|46->15|46->15|46->15|46->15|47->16|47->16|47->16|47->16|47->16|47->16|48->17|48->17|48->17|49->18|49->18|49->18|49->18|49->18|49->18|49->18|49->18|50->19|51->20|52->21|53->22|53->22|53->22|53->22|53->22|53->22|53->22|54->23|55->24|57->42|58->43|59->44|59->44|60->45|60->45|60->45|61->46|61->46|62->47|63->48|63->54|64->55
+                  HASH: ba4eb46b6777b8e4e9a369ce2d5e453b8d79eabb
+                  MATRIX: 768->1|916->54|944->57|998->103|1037->105|1071->113|1212->277|1246->285|1286->400|1317->405|1360->427|1395->435|1486->534|1521->543|1553->559|1593->561|1630->571|1699->613|1768->673|1815->682|1857->696|1889->701|1903->706|1937->719|1978->734|2003->750|2033->752|2055->763|2068->767|2107->768|2143->778|2208->834|2255->843|2289->851|2321->874|2360->876|2409->904|2432->908|2445->912|2475->914|2509->925|2546->932|2586->942|2621->947|2661->959|2710->981|2725->987|2780->1021|2810->1024|2872->1064|2902->1065|2964->1096|2999->1104|3069->2019|3104->2024
+                  LINES: 27->1|32->1|33->2|33->2|33->2|34->3|36->5|37->6|38->9|39->10|39->10|40->11|42->13|43->14|43->14|43->14|44->15|45->16|45->16|45->16|46->17|46->17|46->17|46->17|47->18|47->18|47->18|47->18|47->18|47->18|48->19|48->19|48->19|49->20|49->20|49->20|49->20|49->20|49->20|49->20|49->20|50->21|51->22|52->23|53->24|53->24|53->24|53->24|53->24|53->24|53->24|54->25|55->26|57->56|58->57
                   -- GENERATED --
               */
           
