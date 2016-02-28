@@ -1,12 +1,12 @@
 @(post: models.Post, mode: String ="full")
 
 <div class="post @{if(mode == "teaser") mode else ""}">
-  <h2 class="post-title">
+  @*<h2 class="post-title">
     <a href="@routes.Application.show(post.id)">@post.title</a>
-  </h2>
+  </h2>*@
   <div class="post-metadata">
-    <span class="post-author">@User.findById(post.author.id).firstName</span>
-    <span class="post-date"> @post.postedAt.format("dd MMM yy") </span>
+  @*  <span class="post-author">@User.findById(post.author.id).firstName</span>
+    <span class="post-date"> @post.postedAt.format("dd MMM yy") </span>*@
     @if( mode != "full" ) {
       <span class="post-comments">
         &nbsp;|&nbsp; 
@@ -30,12 +30,13 @@
   </div>
   @if(mode!="teaser"){
     <div class="post-content">
-      <div class="about">Detail: </div>
+    @*  <div class="about">Detail: </div>*@
         @*@Html(post.content.replace("\n", "<br>"))*@
        @Html(CdnAssets.changeImageUrl(post.content).replace("\n", "<br>"))
-    </div>
+    @*</div>*@
   }
 </div>
+@*
 @if(mode=="full"){
   <div class="comments">
     <h3>
@@ -58,4 +59,4 @@
       </div>
     }}
   </div>
-}
+}*@

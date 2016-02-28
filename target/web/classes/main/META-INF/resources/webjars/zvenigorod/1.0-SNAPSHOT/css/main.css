@@ -30,13 +30,14 @@ form .error .help-inline {
 h1 {
     margin-bottom: 20px !important;
 }
+
 .jumbotron {
-	height: 179px;
+#	height: 179px;
   padding: 30px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
-  background-image: url('../images/headerimg960.png')
+#  background-image: url('../images/tom.jpg')
 }
 .container {
   max-width: 960px;
@@ -50,4 +51,15 @@ footer{
   color: #d5d1e7;
   padding: 4px 10px 0;
 	background: url('')
+}
+qmain{
+.jumbotron {
+	height: 640px;
+max-width: 960px;
+  padding: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
+  background-image: url('../images/tom.jpg')
+}
 }

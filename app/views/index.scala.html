@@ -1,17 +1,19 @@
 @(front: Post, older: List[Post], sape: javasape.Sape)
 @main(Messages("playauthenticate.index.title")) {
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron" >
-       @*@Messages("playauthenticate.index.intro")</h1>*@
-      </div>
-     @* @Messages("Реклама: ") 
+      <qmain>
+      </qmain>
+    @*  <div class="jumbotron" >
+       @Messages("playauthenticate.index.intro")</h1>
+      </div>*@
+     @* @Messages("пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ") 
 @sape.getPageLinks(request.uri,request.cookies).render()
 @sape.render()*@
 		@Html(front.getContent)
       <!-- Example row of columns -->
       <div class="row">
      @* @display(front, mode = "full")	*@
-      @for(i <- 1 to 3) {
+     @* @for(i <- 1 to 3) {
         <div class="col-xs-6 col-sm-4">
         @defining(CdnAssets.changeImageUrl(older.get(i).htmlPreview)){ prev =>
           		<h2>@older.get(i).title</h2>
@@ -22,7 +24,7 @@
 			}
 		}
           <a class="btn" href="@routes.Application.show(older.get(i).id)">@Messages("playauthenticate.index.weite") &raquo;</a></p>
-       </div>}
+       </div>}*@
       </div>
        <!-- from yabe -->
        @*
@@ -31,7 +33,7 @@
     
     @Option(older).filterNot(_.isEmpty).map{ posts => 
       <div class="older-posts">
-        <h3>@Messages("Другие новости:")</h3>
+        <h3>@Messages("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:")</h3>
         @posts.map { post =>
           @display(post, mode = "teaser")
         }
@@ -39,11 +41,11 @@
     }
   }.getOrElse {
     <div class="empty">
-      Нет новостей на сегодня
+      пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     </div>
     }
     <div class="older-posts">
-        <h3>@Messages("Другие новости:")</h3>
+        <h3>@Messages("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:")</h3>
          @for(i <- 3 to 7) {
          	@display(older.get(i), mode = "teaser")
          }        
