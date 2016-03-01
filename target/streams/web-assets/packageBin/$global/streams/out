@@ -120,8 +120,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\css\less_test.js[0m
 [0m[[0mdebug[0m] [0m	public/lib\jquery\jquery.min.map[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\jquery\jquery.min.map[0m
-[0m[[0mdebug[0m] [0m	public/images\zvenigorod_map.jpg[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\zvenigorod_map.jpg[0m
 [0m[[0mdebug[0m] [0m	public/javascripts\core\alert.min.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\core\alert.min.js[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\mixins\hide-text.less[0m
@@ -200,8 +198,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\components\form-password.min.js[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\addon\edit\continuelist.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\edit\continuelist.js[0m
-[0m[[0mdebug[0m] [0m	public/img\zvenigorod_map.jpg[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\img\zvenigorod_map.jpg[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\mixins.less[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\bootstrap\less\mixins.less[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\fonts\glyphicons-halflings-regular.svg[0m
@@ -594,8 +590,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\skins\lightgray\img\anchor.gif[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\mode\apl\apl.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\apl\apl.js[0m
-[0m[[0mdebug[0m] [0m	public/images\headerimg960.png[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\headerimg960.png[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\mixins\center-block.less[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\bootstrap\less\mixins\center-block.less[0m
 [0m[[0mdebug[0m] [0m	public/javascripts\tinymce\skins\lightgray\fonts\tinymce-small.woff[0m
@@ -666,6 +660,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\pig\index.html[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\addon\hint\javascript-hint.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\hint\javascript-hint.js[0m
+[0m[[0mdebug[0m] [0m	public/images\about.jpg[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\about.jpg[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\.csslintrc[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\bootstrap\less\.csslintrc[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\mixins\opacity.less[0m
@@ -712,6 +708,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\slidenav.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	public/javascripts\tinymce\plugins\example_dependency\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\example_dependency\plugin.min.js[0m
+[0m[[0mdebug[0m] [0m	public/images\tom1.jpg[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\tom1.jpg[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\addon\merge\merge.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\merge\merge.css[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\mode\d\index.html[0m
@@ -1100,6 +1098,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\cobol\index.html[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\pager.less[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\bootstrap\less\pager.less[0m
+[0m[[0mdebug[0m] [0m	public/images\dressura.jpg[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\dressura.jpg[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\addon\search[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\search[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\mode\groovy\groovy.js[0m
@@ -1144,6 +1144,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\lib[0m
 [0m[[0mdebug[0m] [0m	public/stylesheets\components\flex.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\flex.gradient.min.css[0m
+[0m[[0mdebug[0m] [0m	public/images\zoo_hotel_196.png[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\zoo_hotel_196.png[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\mode\idl\idl.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\idl\idl.js[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\jumbotron.less[0m
@@ -1318,8 +1320,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\cypher\index.html[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\bootstrap\js[0m
-[0m[[0mdebug[0m] [0m	public/images\zvenigorod-pomoyka.jpg[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\zvenigorod-pomoyka.jpg[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\css\bootstrap-theme.css.map[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\web\web-modules\main\webjars\lib\bootstrap\css\bootstrap-theme.css.map[0m
 [0m[[0mdebug[0m] [0m	public/icons\github-24x24.png[0m
@@ -1378,6 +1378,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\clike\scala.html[0m
 [0m[[0mdebug[0m] [0m	public/javascripts\core[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\core[0m
+[0m[[0mdebug[0m] [0m	public/images\sequr.jpg[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\sequr.jpg[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\mode\rust[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\rust[0m
 [0m[[0mdebug[0m] [0m	public/stylesheets\components\datepicker.almost-flat.min.css[0m
@@ -1560,6 +1562,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\groovy\index.html[0m
 [0m[[0mdebug[0m] [0m	public/stylesheets\components\form-password.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\form-password.css[0m
+[0m[[0mdebug[0m] [0m	public/images\zvenigorod-polovodie.jpg[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\zvenigorod-polovodie.jpg[0m
 [0m[[0mdebug[0m] [0m	public/codemirror\addon\scroll\scrollpastend.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\scroll\scrollpastend.js[0m
 [0m[[0mdebug[0m] [0m	public/stylesheets\components\sortable.gradient.min.css[0m
@@ -1654,6 +1658,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\pegjs\index.html[0m
 [0m[[0mdebug[0m] [0m	public/stylesheets\components\caption.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\caption.almost-flat.min.css[0m
+[0m[[0mdebug[0m] [0m	public/images\zoo_hotel.png[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\images\zoo_hotel.png[0m
 [0m[[0mdebug[0m] [0m	public/stylesheets\components\caption.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\caption.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	public/lib\bootstrap\less\mixins\list-group.less[0m
