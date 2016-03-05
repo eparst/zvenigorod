@@ -20,6 +20,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\security\MyCustomDeadboltHook.html[0m
 [0m[[0mdebug[0m] [0m	lib\arrow-right.png[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\lib\arrow-right.png[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers$.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\allusers$.html[0m
 [0m[[0mdebug[0m] [0m	lib\index.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\lib\index.js[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\verify_email_pl_Scope0$.html[0m
@@ -36,6 +38,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\txt\account\email\verify_email_en_Scope0$$verify_email_en.html[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\password_reset_pt_Scope0$$password_reset_pt.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\txt\account\email\password_reset_pt_Scope0$$password_reset_pt.html[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\allusers_Scope0$.html[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\signup\email\verify_email_en$.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\txt\account\signup\email\verify_email_en$.html[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\signup\email\verify_email_en_Scope0$$verify_email_en.html[0m
@@ -50,6 +54,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\email\password_reset_es_Scope0$.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\email\password_reset_de_Scope0$$password_reset_de.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\email\password_reset_de_Scope0$$password_reset_de.html[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$$allusers_Scope1$.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\allusers_Scope0$$allusers_Scope1$.html[0m
 [0m[[0mdebug[0m] [0m	router\Routes.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\router\Routes.html[0m
 [0m[[0mdebug[0m] [0m	lib\filterboxbarbg.gif[0m
@@ -196,6 +202,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\providers\MyUsernamePasswordAuthProvider.html[0m
 [0m[[0mdebug[0m] [0m	providers[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\providers[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$$photo_Scope1$$photo.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\photo_Scope0$$photo_Scope1$$photo.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\signup\email[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\signup\email[0m
 [0m[[0mdebug[0m] [0m	lib\signaturebg2.gif[0m
@@ -342,6 +350,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\txt\account\email\password_reset_de_Scope0$.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\signup\email\verify_email_en_Scope0$$verify_email_en.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\signup\email\verify_email_en_Scope0$$verify_email_en.html[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\photo_Scope0$.html[0m
 [0m[[0mdebug[0m] [0m	index\index-g.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\index\index-g.html[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\verify_email_ru$.html[0m
@@ -418,6 +428,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\password_change_Scope0$.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\signup\email\verify_email_pt_Scope0$$verify_email_pt.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\signup\email\verify_email_pt_Scope0$$verify_email_pt.html[0m
+[0m[[0mdebug[0m] [0m	views\html\photo$.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\photo$.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\unverified_Scope0$$unverified.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\unverified_Scope0$$unverified.html[0m
 [0m[[0mdebug[0m] [0m	views\html\main_Scope0$$main.html[0m
@@ -554,6 +566,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\index\index-t.html[0m
 [0m[[0mdebug[0m] [0m	service\package.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\service\package.html[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$$allusers_Scope1$$allusers.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\allusers_Scope0$$allusers_Scope1$$allusers.html[0m
 [0m[[0mdebug[0m] [0m	models\Post.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\models\Post.html[0m
 [0m[[0mdebug[0m] [0m	lib\ownerbg.gif[0m
@@ -696,6 +710,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\txt\account\email\password_reset_de$.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\ask_link_Scope0$$ask_link.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\account\ask_link_Scope0$$ask_link.html[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$$photo_Scope1$.html[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\views\html\photo_Scope0$$photo_Scope1$.html[0m
 [0m[[0mdebug[0m] [0m	controllers\routes.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\api\controllers\routes.html[0m
 [0m[[0mdebug[0m] [0m	com[0m

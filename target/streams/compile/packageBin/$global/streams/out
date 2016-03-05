@@ -80,6 +80,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\editpost_Scope0$editpost_Scope1$editpost$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\sql\index.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\sql\index.html[0m
+[0m[[0mdebug[0m] [0m	views\html\photo$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo$.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\q\index.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\q\index.html[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\commonlisp[0m
@@ -168,6 +170,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\placeholder.css[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\xml\xml.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\xml\xml.js[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\form-password.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\form-password.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\langs\readme.md[0m
@@ -278,6 +282,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\uikit.css[0m
 [0m[[0mdebug[0m] [0m	views\html\account\email\password_reset_de_Scope0$password_reset_de$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\account\email\password_reset_de_Scope0$password_reset_de$$anonfun$f$1.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$photo.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$photo.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\advlist\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\advlist\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\addon\fold[0m
@@ -542,8 +548,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$33$$anonfun$apply$33.class[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\verify_email_pt_Scope0.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\email\verify_email_pt_Scope0.class[0m
-[0m[[0mdebug[0m] [0m	views\html\show_Scope0$show$$anonfun$apply$1$$anonfun$apply$2.class[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\show_Scope0$show$$anonfun$apply$1$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\uikit.gradient.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\uikit.gradient.css[0m
 [0m[[0mdebug[0m] [0m	views\html\_providerIcon_Scope0$_providerIcon.class[0m
@@ -570,6 +574,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Assets_at38_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$router$Routes$$controllers_Account_askMerge31_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Account_askMerge31_invoker$1.class[0m
+[0m[[0mdebug[0m] [0m	router\Routes$$anonfun$router$Routes$$controllers_Application_photo41_invoker$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_photo41_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\link\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\link\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\addon\hint\anyword-hint.js[0m
@@ -638,8 +644,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\email\password_reset_en.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\visualchars[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\visualchars[0m
-[0m[[0mdebug[0m] [0m	views\html\show_Scope0$show$$anonfun$apply$1.class[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\show_Scope0$show$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	views\html\_providerPartial_Scope0$_providerPartial$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\_providerPartial_Scope0$_providerPartial$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\gas[0m
@@ -808,6 +812,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\search\matchesonscrollbar.js[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\haml\haml.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\haml\haml.js[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$.class[0m
 [0m[[0mdebug[0m] [0m	controllers\javascript\ReverseAdminsPosts.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\controllers\javascript\ReverseAdminsPosts.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$22$$anonfun$apply$22.class[0m
@@ -952,6 +958,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Account_doChangePassword26_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	router\RoutesPrefix.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\RoutesPrefix.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$photo$$anonfun$f$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$photo$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\htmleditor.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\htmleditor.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\verify_email_pl_Scope0$.class[0m
@@ -1026,6 +1034,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\gherkin\index.html[0m
 [0m[[0mdebug[0m] [0m	views\html\account\signup\password_forgot_Scope0$password_forgot$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\account\signup\password_forgot_Scope0$password_forgot$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\verilog\verilog.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\verilog\verilog.js[0m
 [0m[[0mdebug[0m] [0m	models\Tag.class[0m
@@ -1116,6 +1126,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\caption.css[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$router$Routes$$controllers_Application_listTagged10_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_listTagged10_invoker$1.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$allusers_Scope1$allusers.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$allusers_Scope1$allusers.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\nginx\nginx.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\nginx\nginx.js[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\addon\search\searchcursor.js[0m
@@ -1136,6 +1148,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$29$$anonfun$apply$29.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\autocomplete.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\autocomplete.css[0m
+[0m[[0mdebug[0m] [0m	router\Routes$$anonfun$router$Routes$$controllers_Application_users42_invoker$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_users42_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\preview[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\preview[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\puppet\puppet.js[0m
@@ -1370,6 +1384,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\autocomplete.gradient.css[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\skins\lightgray\skin.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\skins\lightgray\skin.min.css[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0.class[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\signup[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\signup[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$router$Routes$$controllers_Signup_verify21_invoker$1.class[0m
@@ -1458,6 +1474,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\hint\html-hint.js[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$13$$anonfun$apply$13.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$13$$anonfun$apply$13.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\placeholder.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\placeholder.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\erlang[0m
@@ -1534,6 +1552,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\email[0m
 [0m[[0mdebug[0m] [0m	views\html\account\email\verify_email_en_Scope0$verify_email_en.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\account\email\verify_email_en_Scope0$verify_email_en.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\emoticons\img\smiley-cry.gif[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\emoticons\img\smiley-cry.gif[0m
 [0m[[0mdebug[0m] [0m	controllers\ReverseSignup.class[0m
@@ -1600,6 +1620,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\smarty\index.html[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\core\grid.min.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\core\grid.min.js[0m
+[0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$42$$anonfun$apply$42.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$42$$anonfun$apply$42.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\placeholder.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\placeholder.min.css[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\signup\email\verify_email_de_Scope0$verify_email_de$$anonfun$f$1.class[0m
@@ -1686,6 +1708,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\eiffel\index.html[0m
 [0m[[0mdebug[0m] [0m	views\html\editpost_Scope0$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\editpost_Scope0$.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$f$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\notify.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\notify.css[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\erlang\erlang.js[0m
@@ -1718,6 +1742,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$router$Routes$$controllers_Application_doLogin14_invoker$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\skins\lightgray\content.inline.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\skins\lightgray\content.inline.min.css[0m
+[0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$43.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$43.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\emoticons\img\smiley-wink.gif[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\emoticons\img\smiley-wink.gif[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\core\dropdown.min.js[0m
@@ -1848,6 +1874,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\index.html[0m
 [0m[[0mdebug[0m] [0m	views\html\_emailPartial_Scope0$_emailPartial$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\_emailPartial_Scope0$_emailPartial$$anonfun$f$1.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$3$$anonfun$apply$4.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$3$$anonfun$apply$4.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$20.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$20.class[0m
 [0m[[0mdebug[0m] [0m	views\html\restricted_Scope0$.class[0m
@@ -1862,6 +1890,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$33.class[0m
 [0m[[0mdebug[0m] [0m	views\html\comments_Scope0$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\comments_Scope0$.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$.class[0m
 [0m[[0mdebug[0m] [0m	javasape\SerializedPhpParser$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\javasape\SerializedPhpParser$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\skins\lightgray\fonts\tinymce.woff[0m
@@ -2034,6 +2064,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\signup\email\verify_email_pl$.class[0m
 [0m[[0mdebug[0m] [0m	views\html\account\signup\exists.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\account\signup\exists.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0$photo_Scope1$photo$$anonfun$apply$3.class[0m
 [0m[[0mdebug[0m] [0m	views\html\comments_Scope0.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\comments_Scope0.class[0m
 [0m[[0mdebug[0m] [0m	Copy of initial-data.yml[0m
@@ -2064,6 +2096,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\dylan\index.html[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$10.class[0m
+[0m[[0mdebug[0m] [0m	views\html\photo_Scope0.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\photo_Scope0.class[0m
 [0m[[0mdebug[0m] [0m	views\html\editpost_Scope0$editpost_Scope1$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\editpost_Scope0$editpost_Scope1$.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\idl\index.html[0m
@@ -2114,8 +2148,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\notify.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	views\html\account\unverified_Scope0.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\account\unverified_Scope0.class[0m
-[0m[[0mdebug[0m] [0m	views\html\signup_Scope0$signup$$anonfun$apply$1.class[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\signup_Scope0$signup$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\form-select.almost-flat.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\form-select.almost-flat.css[0m
 [0m[[0mdebug[0m] [0m	views\html\account\email\password_reset_es_Scope0.class[0m
@@ -2124,6 +2156,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\xquery[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\password_reset_pt_Scope0$password_reset_pt$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\email\password_reset_pt_Scope0$password_reset_pt$$anonfun$f$1.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$apply$2.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\cypher\index.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\cypher\index.html[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$8.class[0m
@@ -2228,6 +2262,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\core[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\signup\email\verify_email_en_Scope0$verify_email_en.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\signup\email\verify_email_en_Scope0$verify_email_en.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$apply$2$$anonfun$apply$3.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$apply$2$$anonfun$apply$3.class[0m
 [0m[[0mdebug[0m] [0m	views\html\show_Scope0$show$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\show_Scope0$show$$anonfun$f$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\images\sequr.jpg[0m
@@ -2352,8 +2388,6 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\form-select.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\flex.almost-flat.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\flex.almost-flat.min.css[0m
-[0m[[0mdebug[0m] [0m	views\html\login_Scope0$login$$anonfun$apply$2.class[0m
-[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\login_Scope0$login$$anonfun$apply$2.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\smalltalk\index.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\smalltalk\index.html[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$17.class[0m
@@ -2368,6 +2402,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$documentation$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\addon\display\rulers.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\addon\display\rulers.js[0m
+[0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$43$$anonfun$apply$43.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$43$$anonfun$apply$43.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\tinymce\plugins\spellchecker\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\spellchecker\plugin.min.js[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$router$Routes$$controllers_AdminsPosts_edit6_invoker$1.class[0m
@@ -2410,6 +2446,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$5$$anonfun$apply$5.class[0m
 [0m[[0mdebug[0m] [0m	models\User.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\models\User.class[0m
+[0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$42.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$42.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\stylesheets\components\dotnav.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\stylesheets\components\dotnav.gradient.min.css[0m
 [0m[[0mdebug[0m] [0m	views\html\account\link_Scope0$.class[0m
@@ -2472,6 +2510,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\models\SecurityRole.class[0m
 [0m[[0mdebug[0m] [0m	views\txt\account\email\password_reset_de_Scope0$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\txt\account\email\password_reset_de_Scope0$.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$allusers_Scope1$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$allusers_Scope1$.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$27.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$27.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\dockerfile\dockerfile.js[0m
@@ -2610,6 +2650,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$26$$anonfun$apply$26.class[0m
 [0m[[0mdebug[0m] [0m	com\feth\play\module\pa[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\com\feth\play\module\pa[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers$.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers$.class[0m
 [0m[[0mdebug[0m] [0m	router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$30$$anonfun$apply$30.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\router\Routes$$anonfun$routes$1$$anonfun$applyOrElse$30$$anonfun$apply$30.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\php\test.js[0m
@@ -2640,6 +2682,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\javascripts\tinymce\plugins\searchreplace[0m
 [0m[[0mdebug[0m] [0m	views\html\index$.class[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\index$.class[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers_Scope0$allusers_Scope1$allusers$$anonfun$apply$1.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\erlang\index.html[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\erlang\index.html[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\modelica[0m
@@ -2834,6 +2878,8 @@
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\controllers\javascript\ReverseWebJarAssets.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\yaml[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\yaml[0m
+[0m[[0mdebug[0m] [0m	views\html\allusers.class[0m
+[0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\target\scala-2.11\classes\views\html\allusers.class[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\codemirror\mode\ruby\ruby.js[0m
 [0m[[0mdebug[0m] [0m	  C:\j\2015_10\zvenigorod\public\codemirror\mode\ruby\ruby.js[0m
 [0m[[0mdebug[0m] [0m	META-INF\resources\webjars\zvenigorod\1.0-SNAPSHOT\javascripts\core\toggle.js[0m

@@ -62,7 +62,7 @@ Seq[Any](format.raw/*1.71*/("""
 object verify_email_pt extends verify_email_pt_Scope0.verify_email_pt
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 02 03:01:32 MSK 2016
+                  DATE: Sun Mar 06 01:00:19 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/signup/email/verify_email_pt.scala.html
                   HASH: 620408064bd456870b7d749e4951ce0f45ffb27d
                   MATRIX: 807->1|971->70|999->72|1029->77|1053->81|1200->202|1235->217

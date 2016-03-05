@@ -64,7 +64,7 @@ Seq[Any](format.raw/*1.44*/("""
 object _emailPartial extends _emailPartial_Scope0._emailPartial
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 02 03:01:30 MSK 2016
+                  DATE: Sun Mar 06 01:00:18 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/_emailPartial.scala.html
                   HASH: 9ee10128c4ebc8555e3a27831c97f9ba74e16313
                   MATRIX: 843->1|987->63|1019->87|1098->43|1127->136|1155->139|1303->267

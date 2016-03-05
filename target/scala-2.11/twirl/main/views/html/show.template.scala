@@ -65,7 +65,7 @@ Seq[Any](format.raw/*1.85*/("""
 object show extends show_Scope0.show
               /*
                   -- GENERATED --
-                  DATE: Sat Mar 05 16:05:40 MSK 2016
+                  DATE: Sun Mar 06 01:00:18 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/show.scala.html
                   HASH: 89292e8b49aa53f6feadee4ee134d3202fdf75f6
                   MATRIX: 780->1|1076->84|1103->207|1137->215|1195->275|1230->284|1291->404|1319->406|1344->422|1383->423|1413->427|1451->456|1491->458|1525->465|1572->485|1586->490|1622->505|1662->515|1699->526|1748->554|1790->566|1818->567
