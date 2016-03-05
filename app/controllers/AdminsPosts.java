@@ -19,7 +19,7 @@ import static play.data.Form.*;
  */
 
 // @Security.Authenticated(Secured.class)
-@Restrict(@Group(Application.USER_ROLE))
+@Restrict(@Group(Application.ADMIN_ROLE))
 public class AdminsPosts extends Controller {
 
 	public static final int TRUNCATED_MEDIUM_CHAR_COUNT = 150;

@@ -44,6 +44,7 @@ public class Application extends Controller {
 	public static final String FLASH_MESSAGE_KEY = "message";
 	public static final String FLASH_ERROR_KEY = "error";
 	public static final String USER_ROLE = "user";
+	public static final String ADMIN_ROLE = "admin";
 /*	private static String sapeUser = Play.application().configuration().getString("sapeUser");
 	private static String sapeHost = Play.application().configuration().getString("sapeHost");
 */
@@ -122,7 +123,6 @@ public class Application extends Controller {
 		final User localUser = getLocalUser(session());
 		return ok(restricted.render(localUser));
 	}
-
 	@Restrict(@Group(Application.USER_ROLE))
 	public static Result profile() {
 		final User localUser = getLocalUser(session());
@@ -177,7 +177,7 @@ public class Application extends Controller {
 	}
 
 	// @Security.Authenticated(Secured.class)
-	@Restrict(@Group(Application.USER_ROLE))
+	@Restrict(@Group(Application.ADMIN_ROLE))
 	public static Result admin() {
 		final User localUser = getLocalUser(session());
 		// User localUser = getLocalUser(session());
@@ -219,7 +219,7 @@ public class Application extends Controller {
 
 		}
 	}
-	@Restrict(@Group(Application.USER_ROLE))
+	@Restrict(@Group(Application.ADMIN_ROLE))
 	public static Result users(){
 		 User localUser = getLocalUser(session());
 		try {

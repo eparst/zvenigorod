@@ -59,8 +59,10 @@
                                     <li class="@("active".when(nav == "profile"))"><a href="@routes.Application.profile()">@Messages("playauthenticate.navigation.profile")</a></li>
                                     <li><a href="@routes.Account.link()">@Messages("playauthenticate.navigation.link_more")</a></li>
                                     <li class="divider"></li>
+                                    @if(user.isAdmin){ 
                                     <li><a href="@routes.Application.admin()">All Posts</a></li>
                                      <li><a href="@routes.Application.users()">All Users</a></li>
+                                     }
                                     <li class="divider"></li>                                    
                                     <li><a href="@com.feth.play.module.pa.controllers.routes.Authenticate.logout()"><i class="icon-off"></i> @Messages("playauthenticate.navigation.logout")</a></li>
                                 </ul>
