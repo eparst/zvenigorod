@@ -82,7 +82,7 @@ public class AdminsPosts extends Controller {
 		toDelete.delete();
 		if(toDelete.getIsPhoto()){
 			flash("Выполнено!", "Фото удалено");
-			return redirect(routes.Application.admin());
+			return redirect(routes.Application.photo());
 		}else{
 			flash("success", "Post has been deleted");
 			return redirect(routes.Application.admin());

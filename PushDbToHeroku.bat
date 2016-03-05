@@ -9,3 +9,6 @@ pg_restore --verbose --clean --no-acl --no-owner -h localhost -U postgres -d zve
 
 curl -o b013.dump `heroku pg:backups public-url`
 pg_restore --verbose --clean --no-acl --no-owner -h localhost -U postgres -d zvenigorod C:\j\2015_10\zvenigorod\1.dump
+
+to openshift:
+pg_restore --verbose --clean --no-acl --no-owner -h localhost -U adminhpcaky5 -d oleg C:\j\2015_10\tmp\oleg.dump
