@@ -71,7 +71,7 @@ Seq[Any](format.raw/*1.56*/("""
 object password_change extends password_change_Scope0.password_change
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 01:05:18 MSK 2016
+                  DATE: Sun Mar 06 01:07:40 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/password_change.scala.html
                   HASH: 8ebd460af0b285a1d050267e63e360dd027365f2
                   MATRIX: 807->1|963->75|995->99|1074->55|1103->148|1131->151|1195->207|1234->209|1263->212|1293->217|1363->267|1402->280|1490->359|1530->361|1566->371|1605->401|1645->403|1681->412|1750->454|1769->464|1810->484|1844->491|1887->504|1920->511|1969->539|2002->545|2076->592|2146->640|2188->652|2217->654|2253->660

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/j/2015_10/zvenigorod/conf/routes
-// @DATE:Sun Mar 06 01:05:16 MSK 2016
+// @DATE:Sun Mar 06 01:07:39 MSK 2016
 
 package controllers;
 
