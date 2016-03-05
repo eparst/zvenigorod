@@ -57,9 +57,10 @@ public class AdminsPosts extends Controller {
 			toUpdate.setHtmlPreview(postFromForm.getHtmlPreview());
 		}
 		// toUpdate.setHeader(postFromForm.getHeader());
+		toUpdate.setIsPhoto(postFromForm.getIsPhoto());
 		toUpdate.save();
 		// Post.change(postId, postFromForm.title, postFromForm.content);
-		flash("success", "Post has been updated");
+		
 		/**
 		 * you can use
 		 * redirect(routes.Application.viewPost(blogPost.save().getRid
@@ -67,15 +68,26 @@ public class AdminsPosts extends Controller {
 		 * way. Only one plus of my solution - avoiding Post.findById query TODO
 		 * only on create
 		 */
-		return redirect(routes.Application.admin());
+		if(toUpdate.getIsPhoto()){
+			flash("Выполнено!", "Фото обновленно");
+			return redirect(routes.Application.photo());
+		}else{
+			flash("success", "Post has been updated");
+			return redirect(routes.Application.admin());
+		}
 	}
 
 	public static Result delete(Long postId) {
 		Post toDelete = Post.find.byId(postId);
 		toDelete.delete();
-
-		flash("success", "Post has been deleted");
-		return redirect(routes.Application.admin());
+		if(toDelete.getIsPhoto()){
+			flash("Выполнено!", "Фото удалено");
+			return redirect(routes.Application.admin());
+		}else{
+			flash("success", "Post has been deleted");
+			return redirect(routes.Application.admin());
+		}
+		
 	}
 
 	/**
@@ -112,7 +124,10 @@ public class AdminsPosts extends Controller {
 		// blogPost.setBlog(blog);
 		blogPost.save();
 		flash("success", "Post has been created");
-		return redirect(routes.Application.admin());
-
+		if(blogPost.getIsPhoto()){
+			return redirect(routes.Application.photo());
+		}else{
+			return redirect(routes.Application.admin());
+		}
 	}
 }

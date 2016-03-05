@@ -12,7 +12,9 @@ val appDependencies = Seq(
 //	"com.feth"      %% "play-authenticate" % "0.7.0-SNAPSHOT", //work on heroku fine
 	"com.feth"      %% "play-authenticate" % "0.7.1",
 //  "postgresql" % "postgresql" % "9.1-901-1.jdbc4",
-	"org.postgresql" % "postgresql" % "9.2-1003-jdbc4",
+"org.postgresql" % "postgresql" % "9.4-1206-jdbc42",
+//	"org.postgresql" % "postgresql" % "9.2-1003-jdbc4",
+//  "org.postgresql" % "postgresql" % "9.4-1206-jdbc42",
 //  "mysql" % "mysql-connector-java" % "5.1.34",
 //  javaCore,
 	cache,

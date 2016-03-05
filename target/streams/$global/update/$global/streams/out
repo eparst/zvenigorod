@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@682a3c44[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1255aafb[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -665,7 +665,7 @@
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
 [0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1[0m
 [0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (411ms)[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (325ms)[0m
 [0m[[0minfo[0m] [0mResolving com.google.inject.extensions#extensions-parent;4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.inject.extensions#extensions-parent;4.0[0m
@@ -2172,14 +2172,14 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.feth#play-authenticate_2.11;0.7.1->com.typesafe.play#play-java-ws_2.11;2.4.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.feth#play-authenticate_2.11;0.7.1->com.typesafe.play#play-java-ws_2.11;2.4.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.feth#play-authenticate_2.11;0.7.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
-[0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.2-1003-jdbc4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.2-1003-jdbc4 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.postgresql#postgresql;9.2-1003-jdbc4[0m
-[0m[[0mdebug[0m] [0m	found org.postgresql#postgresql;9.2-1003-jdbc4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.postgresql#postgresql;9.4-1206-jdbc42 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.4-1206-jdbc42 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.postgresql#postgresql;9.4-1206-jdbc42[0m
+[0m[[0mdebug[0m] [0m	found org.postgresql#postgresql;9.4-1206-jdbc42 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->runtime][0m
@@ -3601,10 +3601,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.feth#play-authenticate_2.11;0.7.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->runtime][0m
@@ -4997,10 +4997,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.feth#play-authenticate_2.11;0.7.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->runtime][0m
@@ -7178,10 +7178,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.feth#play-authenticate_2.11;0.7.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->runtime][0m
@@ -8576,10 +8576,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.feth#play-authenticate_2.11;0.7.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->runtime][0m
@@ -9974,10 +9974,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.3->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.feth#play-authenticate_2.11;0.7.1 [compile->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->runtime][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.2-1003-jdbc4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1206-jdbc42 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.eparst#zvenigorod_2.11;1.0-SNAPSHOT->com.typesafe.play#play-cache_2.11;2.4.3 [compile->runtime][0m
@@ -11375,7 +11375,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.11;2.4.0!play-netty-server_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] be.objectify#deadbolt-java_2.11;2.4.0!deadbolt-java_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.feth#play-authenticate_2.11;0.7.1!play-authenticate_2.11.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgresql#postgresql;9.2-1003-jdbc4!postgresql.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.postgresql#postgresql;9.4-1206-jdbc42!postgresql.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.4.0!play-java-jdbc_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#webjars-play_2.11;2.4.0-1!webjars-play_2.11.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.webjars#bootstrap;3.2.0!bootstrap.jar[0m
@@ -11535,7 +11535,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.3!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.3!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 8989ms :: artifacts dl 140ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5971ms :: artifacts dl 131ms[0m
 [0m[[0mdebug[0m] [0m	report for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT compile produced in C:\j\2015_10\zvenigorod\target\resolution-cache\reports\com.eparst-zvenigorod_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT runtime produced in C:\j\2015_10\zvenigorod\target\resolution-cache\reports\com.eparst-zvenigorod_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT test produced in C:\j\2015_10\zvenigorod\target\resolution-cache\reports\com.eparst-zvenigorod_2.11-test.xml[0m
@@ -11549,5 +11549,7 @@
 [0m[[0mdebug[0m] [0m	report for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT docs produced in C:\j\2015_10\zvenigorod\target\resolution-cache\reports\com.eparst-zvenigorod_2.11-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT pom produced in C:\j\2015_10\zvenigorod\target\resolution-cache\reports\com.eparst-zvenigorod_2.11-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.eparst#zvenigorod_2.11;1.0-SNAPSHOT scala-tool produced in C:\j\2015_10\zvenigorod\target\resolution-cache\reports\com.eparst-zvenigorod_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (8989ms resolve - 140ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (5971ms resolve - 131ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+lve done (11267ms resolve - 120ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

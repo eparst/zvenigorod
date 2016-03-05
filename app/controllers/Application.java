@@ -50,7 +50,8 @@ public class Application extends Controller {
 	// @Restrict(@Group(Application.USER_ROLE))
 	public static Result index() {
 //		response().setContentType("text/html; Windows-1251");
-		Post frontPost = Post.find.orderBy("postedAt desc").findList().get(0);
+//		Post frontPost = Post.find.orderBy("postedAt desc").findList().get(0);
+		Post frontPost = Post.find.byId((long) 95);
 		// List<Post> olderPosts =
 		// Post.find.orderBy("postedAt").findList().subList(1, 4);
 		List<Post> newerPosts = Post.find.orderBy("postedAt desc").findList();//30.07 .subList(0, 4);
@@ -208,5 +209,25 @@ public class Application extends Controller {
 		// ok(admin.render(Blog.findByUser(localUser.getRid().toString()),
 		// localUser));
 	}
+	public static Result photo(){
+		 User localUser = getLocalUser(session());
+		try {
+			List<Post> posts = Post.find.where().eq("is_photo", true).findList();
+			return ok(photo.render( posts, localUser));
+		} catch (Exception e) {
+			return ok(photo.render(null, localUser));
 
+		}
+	}
+	@Restrict(@Group(Application.USER_ROLE))
+	public static Result users(){
+		 User localUser = getLocalUser(session());
+		try {
+			List<User> users = User.find.all();
+			return ok(allusers.render( users, localUser));
+		} catch (Exception e) {
+			return ok(allusers.render(null, localUser));
+
+		}
+	}
 }

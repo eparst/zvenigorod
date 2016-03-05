@@ -45,38 +45,16 @@ Seq[Any](format.raw/*1.23*/("""
 
   <div id="signup" class="row">
 
-    <div class="col-xs-6 col-md-4">
-        """),format.raw/*17.45*/("""
-    	"""),_display_(/*18.7*/helper/*18.13*/.form(routes.Application.doSignup, 'class -> "form-horizontal", 'role -> "form")/*18.93*/ {_display_(Seq[Any](format.raw/*18.95*/("""
-
-            """),_display_(/*20.14*/if(signupForm.hasGlobalErrors)/*20.44*/ {_display_(Seq[Any](format.raw/*20.46*/("""
-		        """),format.raw/*21.11*/("""<p class="alert alert-danger">
-		          """),_display_(/*22.14*/signupForm/*22.24*/.globalError.message),format.raw/*22.44*/("""
-		     	"""),format.raw/*23.9*/("""</p>
-            """)))}),format.raw/*24.14*/("""
-
-             """),_display_(/*26.15*/inputText(
-                signupForm("name"),
-                '_label -> Messages("playauthenticate.signup.name")
-             )),format.raw/*29.15*/("""
-
-             """),_display_(/*31.15*/_emailPartial(signupForm)),format.raw/*31.40*/("""
-
-             """),_display_(/*33.15*/_passwordPartial(signupForm)),format.raw/*33.43*/("""
-
-            """),format.raw/*35.13*/("""<button type="submit" class="btn btn-default">"""),_display_(/*35.60*/Messages("playauthenticate.signup.now")),format.raw/*35.99*/("""</button>
-    	""")))}),format.raw/*36.7*/("""
-    """),format.raw/*37.5*/("""</div>
-
-    <div class="col-xs-6 col-md-4">
-        """),_display_(/*40.10*/Messages("playauthenticate.signup.oauth")),format.raw/*40.51*/("""
-        """),format.raw/*41.50*/("""
-        """),_display_(/*42.10*/_providerPartial(skipCurrent=false)),format.raw/*42.45*/("""
-    """),format.raw/*43.5*/("""</div>
+   """),format.raw/*17.45*/("""
+    """),format.raw/*40.6*/(""" """),format.raw/*40.7*/("""<div class="col-xs-12 col-sm-6 col-md-8">
+        """),_display_(/*41.10*/Messages("playauthenticate.signup.oauth")),format.raw/*41.51*/("""
+        """),format.raw/*42.50*/("""
+        """),_display_(/*43.10*/_providerPartial(skipCurrent=false)),format.raw/*43.45*/("""
+    """),format.raw/*44.5*/("""</div>
 
   </div>
 
-""")))}),format.raw/*47.2*/("""
+""")))}),format.raw/*48.2*/("""
 """))
       }
     }
@@ -101,11 +79,11 @@ Seq[Any](format.raw/*1.23*/("""
 object signup extends signup_Scope0.signup
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 02 01:26:32 MSK 2016
+                  DATE: Sat Mar 05 17:05:42 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/signup.scala.html
-                  HASH: 1cca2535eab69c9e9209613781c649227fb301b4
-                  MATRIX: 821->1|944->42|976->66|1055->22|1084->115|1112->118|1176->174|1215->176|1245->180|1347->255|1409->296|1541->436|1574->443|1589->449|1678->529|1718->531|1760->546|1799->576|1839->578|1878->589|1949->633|1968->643|2009->663|2045->672|2094->690|2137->706|2287->835|2330->851|2376->876|2419->892|2468->920|2510->934|2584->981|2644->1020|2690->1036|2722->1041|2802->1094|2864->1135|2901->1185|2938->1195|2994->1230|3026->1235|3075->1254
-                  LINES: 29->1|33->4|33->4|34->1|36->4|38->6|38->6|38->6|40->8|42->10|42->10|49->17|50->18|50->18|50->18|50->18|52->20|52->20|52->20|53->21|54->22|54->22|54->22|55->23|56->24|58->26|61->29|63->31|63->31|65->33|65->33|67->35|67->35|67->35|68->36|69->37|72->40|72->40|73->41|74->42|74->42|75->43|79->47
+                  HASH: 87b4cc92d173e2eba34b0776a20558d8ed1b156d
+                  MATRIX: 821->1|944->42|976->66|1055->22|1084->115|1112->118|1176->174|1215->176|1245->180|1347->255|1409->296|1500->438|1532->1094|1560->1095|1638->1146|1700->1187|1737->1237|1774->1247|1830->1282|1862->1287|1911->1306
+                  LINES: 29->1|33->4|33->4|34->1|36->4|38->6|38->6|38->6|40->8|42->10|42->10|48->17|49->40|49->40|50->41|50->41|51->42|52->43|52->43|53->44|57->48
                   -- GENERATED --
               */
           

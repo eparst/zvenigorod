@@ -58,7 +58,7 @@ Seq[Any](format.raw/*1.33*/("""
 object restricted extends restricted_Scope0.restricted
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 02 01:26:32 MSK 2016
+                  DATE: Wed Mar 02 03:01:30 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/restricted.scala.html
                   HASH: 6e79049987481cb4563e4d76987250e5d9dd51ad
                   MATRIX: 760->1|886->32|914->35|992->105|1031->107|1067->117|1098->122|1168->172|1217->195|1284->242|1315->247|1350->253

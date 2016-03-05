@@ -58,17 +58,17 @@ playauthenticate.password.reset_email.subject=PlayAuthenticate: How to reset you
 playauthenticate.login.email.placeholder=Your e-mail address
 playauthenticate.login.password.placeholder=Choose a password
 playauthenticate.login.password.repeat=Repeat chosen password
-playauthenticate.login.title=Login
+playauthenticate.login.title=Регистрация
 playauthenticate.login.password.placeholder=Password
-playauthenticate.login.now=Login now
+playauthenticate.login.now=Войти
 playauthenticate.login.forgot.password=Forgot your password?
-playauthenticate.login.oauth=or log in using one of the following providers:
+playauthenticate.login.oauth=Зарегистрируйтесь, используя свой аккаунт в одной из социальных сетей:
 playauthenticate.login.basic=or try HTTP basic auth (as example/secret)
 
-playauthenticate.signup.title=Signup
-playauthenticate.signup.name=Your name
+playauthenticate.signup.title=Регистрация на сайте
+playauthenticate.signup.name=Ваше имя
 playauthenticate.signup.now=Sign up now
-playauthenticate.signup.oauth=or sign up using one of the following providers:
+playauthenticate.signup.oauth=Зарегистрируйтесь, используя свой аккаунт в одной из социальных сетей:
 
 playauthenticate.verify.account.title=E-mail verification required
 playauthenticate.verify.account.before=Before setting a password, you need to
@@ -83,10 +83,10 @@ playauthenticate.merge.accounts.true=Yes, merge these two accounts
 playauthenticate.merge.accounts.false=No, exit my current session and log in as a new user
 playauthenticate.merge.accounts.ok=OK
 
-playauthenticate.link.account.title=Link account
-playauthenticate.link.account.question=Link ({0}) with your user?
-playauthenticate.link.account.true=Yes, link this account
-playauthenticate.link.account.false=No, log out and create a new user with this account
+playauthenticate.link.account.title=Привязать аккаунты
+playauthenticate.link.account.question=Привязать ({0}) к Вашему профилю?
+playauthenticate.link.account.true=Да, привязать этот аккаунт!
+playauthenticate.link.account.false=Нет, выйти и создать нового пользователя с этим аккаунтом!
 playauthenticate.link.account.ok=OK
 
 # play-authenticate: Signup folder translations
@@ -113,25 +113,25 @@ playauthenticate.user.exists.title=User exists
 playauthenticate.user.exists.message=This user already exists.
 
 # play-authenticate: Navigation
-playauthenticate.navigation.profile=Profile
-playauthenticate.navigation.link_more=Link more providers
-playauthenticate.navigation.logout=Sign out
-playauthenticate.navigation.login=Log in
+playauthenticate.navigation.profile=Профиль
+playauthenticate.navigation.link_more=Привязать еще аккаунты
+playauthenticate.navigation.logout=Выйти
+playauthenticate.navigation.login=Войти
 playauthenticate.navigation.home=Главная
 playauthenticate.navigation.restricted=Restricted page
-playauthenticate.navigation.signup=Sign up
+playauthenticate.navigation.signup=Зарегистрироваться
 
 # play-authenticate: Handler
 playauthenticate.handler.loginfirst=You need to log in first, to view ''{0}''
 
 # play-authenticate: Profile
-playauthenticate.profile.title=User profile
-playauthenticate.profile.mail=Your name is {0} and your email address is {1}!
+playauthenticate.profile.title=Профиль пользователя
+playauthenticate.profile.mail=Ваше имя is {0} И Ваш email: {1}!
 playauthenticate.profile.unverified=unverified - click to verify
 playauthenticate.profile.verified=verified
 playauthenticate.profile.providers_many=There are {0} providers linked with your account:
-playauthenticate.profile.providers_one = There is one provider linked with your account:
-playauthenticate.profile.logged=You are currently logged in with:
+playauthenticate.profile.providers_one = C Вашим аккаунтом связан один аккунт социальной сети:
+playauthenticate.profile.logged=Вы зарегистрированы через Ваш аккаунт:
 playauthenticate.profile.session=Your user ID is {0} and your session will expire on {1}
 playauthenticate.profile.session_endless=Your user ID is {0} and your session will not expire, as it is endless
 playauthenticate.profile.password_change=Change/set a password for your account

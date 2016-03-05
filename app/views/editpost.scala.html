@@ -39,11 +39,12 @@ tinymce.init({
         @helper.textarea(postForm("title"), '_label -> Messages("playauthenticate.posts.title"), 'cols -> "100", 'rows -> "2")
         @helper.textarea(postForm("content"), 'id -> "content", '_label -> "Text") @* Symbol("data-uk-htmleditor") -> "{markdown:true}")*@
         @helper.textarea(postForm("htmlPreview"), '_label -> Messages("playauthenticate.posts.prev"), 'cols -> "100", 'rows -> "7")
+        @helper.checkbox(postForm("IsPhoto"), '_label -> Messages("для фотогаллерии"), 'cols -> "1", 'rows -> "1")
         @*TODO helper*@
         <input type="hidden" name="id" value="@postId" />
 
         <div>
-            <input type="submit" value="Save this post"> or
+            <input type="submit" value="Сохранить"> or
             <a href="@routes.Application.admin()" class="btn">Cancel</a>
         </div>
     }

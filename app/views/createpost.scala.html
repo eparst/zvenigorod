@@ -41,8 +41,9 @@ tinymce.init({
         @helper.textarea(postForm("title"), '_label -> Messages("playauthenticate.posts.title"), 'cols -> "100", 'rows -> "2")
         @helper.textarea(postForm("content"), '_label -> Messages("playauthenticate.posts.text"), 'cols -> "100", 'rows -> "18")
 		@helper.textarea(postForm("htmlPreview"), '_label -> Messages("playauthenticate.posts.prev"), 'cols -> "100", 'rows -> "7")
+		@helper.checkbox(postForm("IsPhoto"), '_label -> Messages("для фотогаллерии"), 'cols -> "1", 'rows -> "1")
         @*<input type="hidden" name="user" value="@user.id.toString" />*@
-        <input type="submit" value="Submit">
+        <input type="submit" value="Сохранить">
     }
 }
 

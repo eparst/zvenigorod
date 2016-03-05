@@ -27,6 +27,7 @@ public class Post extends AppModel {
 	public User author;
 
 	public String htmlPreview;
+	public boolean IsPhoto;
 
 	@OneToMany(mappedBy = "post", cascade = CascadeType.ALL)
 	public List<Comment> comments = new ArrayList<Comment>();
@@ -114,6 +115,13 @@ public class Post extends AppModel {
 		this.title = t;
 	}
 
+	public Boolean getIsPhoto() {
+		return IsPhoto;
+	}
+
+	public void setIsPhoto(Boolean t) {
+		this.IsPhoto = t;
+	}
 	public String getHtmlPreview() {
 		return htmlPreview;
 	}
@@ -121,7 +129,6 @@ public class Post extends AppModel {
 	public void setHtmlPreview(String t) {
 		this.htmlPreview = t;
 	}
-
 	public User getAuthor() {
 		return author;
 	}

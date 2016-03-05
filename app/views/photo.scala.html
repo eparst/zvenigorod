@@ -1,0 +1,38 @@
+@import models._
+@import be.objectify.deadbolt.java.views.html._
+@(photos: List[Post], user: User) @main("photo") { @*admin*@
+</br>
+    @if(flash.contains("success")) {
+        <p>
+        @flash.get("success")
+        </p>
+    }
+    @subjectPresent() {
+                @if(user.isAdmin){
+                    <h4><a href="@routes.AdminsPosts.create()">Создать</a></h4>
+                    <hr>}
+     }
+          <table>			    				
+   	@if(photos != null){
+    @for((post, index) <- photos.zipWithIndex) {
+    	@if(index % 4 == 0  ){<tr>}
+   			<td>   
+   			<a href="@routes.Application.show(post.id)">
+   				@Html(CdnAssets.changeImageUrl(post.htmlPreview))
+   			</a> 
+   			@subjectPresent() {              
+               @if(user.isAdmin){ 
+      	         	<p><a href="@routes.AdminsPosts.edit(post.id)">Редактировать / </a> 
+        	        <a href="@routes.AdminsPosts.delete(post.id)">Удалить</a></p>
+                }}
+     	 	</td>
+    	  @if(index % 4 == 3   ){</tr>}
+      }
+
+    }else{
+      			<p>No photos.... </p>
+          }
+          </tr>
+          </table>
+
+}

@@ -32,19 +32,17 @@ class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Forma
 Seq[Any](format.raw/*1.55*/("""
 """),_display_(/*2.2*/main(Messages("playauthenticate.index.title"))/*2.48*/ {_display_(Seq[Any](format.raw/*2.50*/("""
       """),format.raw/*3.7*/("""<!-- Main jumbotron for a primary marketing message or call to action -->
-      <qmain>
-      </qmain>
-    """),format.raw/*8.15*/("""
-     """),format.raw/*11.17*/("""
-		"""),_display_(/*12.4*/Html(front.getContent)),format.raw/*12.26*/("""
-      """),format.raw/*13.7*/("""<!-- Example row of columns -->
+     """),format.raw/*6.15*/("""
+     """),format.raw/*9.17*/("""
+		"""),_display_(/*10.4*/Html(front.getContent)),format.raw/*10.26*/("""
+      """),format.raw/*11.7*/("""<!-- Example row of columns -->
       <div class="row">
-     """),format.raw/*15.42*/("""
-     """),format.raw/*27.17*/("""
-      """),format.raw/*28.7*/("""</div>
+     """),format.raw/*13.42*/("""
+     """),format.raw/*25.17*/("""
+      """),format.raw/*26.7*/("""</div>
        <!-- from yabe -->
-       """),format.raw/*58.16*/("""
-  """)))}),format.raw/*59.4*/("""
+       """),format.raw/*56.16*/("""
+  """)))}),format.raw/*57.4*/("""
     
 """))
       }
@@ -66,11 +64,11 @@ Seq[Any](format.raw/*1.55*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Wed Mar 02 01:26:31 MSK 2016
+                  DATE: Sat Mar 05 16:29:29 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/index.scala.html
-                  HASH: 3b402bf5373b42293dfb1f0e5937ef443cbdd636
-                  MATRIX: 768->1|916->54|944->57|998->103|1037->105|1071->113|1208->322|1243->431|1274->436|1317->458|1352->466|1443->565|1478->1131|1513->1139|1583->2054|1618->2059
-                  LINES: 27->1|32->1|33->2|33->2|33->2|34->3|37->8|38->11|39->12|39->12|40->13|42->15|43->27|44->28|46->58|47->59
+                  HASH: 85c80b33afa4601cfb4c544be3adf45579bf819b
+                  MATRIX: 768->1|916->54|944->57|998->103|1037->105|1071->113|1178->291|1212->400|1243->405|1286->427|1321->435|1412->534|1447->1100|1482->1108|1552->2023|1587->2028
+                  LINES: 27->1|32->1|33->2|33->2|33->2|34->3|35->6|36->9|37->10|37->10|38->11|40->13|41->25|42->26|44->56|45->57
                   -- GENERATED --
               */
           

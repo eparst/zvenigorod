@@ -1,0 +1,37 @@
+@import models._
+
+@(usersAll: List[User], user: User) @main("Admin") {
+
+    @if(flash.contains("success")) {
+        <p>
+        @flash.get("success")
+        </p>
+    }
+
+    <h4>Users:</h4>
+			<table>
+    				
+         @if(usersAll != null){
+    @for((user, index) <- usersAll.zipWithIndex) {
+	<tr>
+	<td>@(index + 1)</td>
+    <td> &nbsp;Login: @user.name; &nbsp;</td>
+    <td> &nbsp;ID: @user.id; &nbsp;</td>      
+    <td> &nbsp;Email: @user.email; &nbsp;</td>
+    <td>
+     @for(p <- user.getProviders()) {
+            @_providerIcon(p)
+        }</td>
+    <td> &nbsp;isAdmin: @user.isAdmin; &nbsp;</td>
+      </tr>
+      	<tr><td colspan="6"><hr></td></tr>
+		  </tr>
+          </table>
+            }
+
+    }else{
+      			<p>No users.... </p>
+          }
+        
+}
+

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/j/2015_10/zvenigorod/conf/routes
-// @DATE:Wed Mar 02 01:26:30 MSK 2016
+// @DATE:Sat Mar 05 17:29:58 MSK 2016
 
 package router
 
@@ -79,6 +79,8 @@ class Routes extends GeneratedRouter {
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """img/$file<.+>""", """controllers.Assets.at(path:String = "/public", file:String)"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """webjars/$file<.+>""", """controllers.WebJarAssets.at(file:String)"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """photo""", """controllers.Application.photo()"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """users""", """controllers.Application.users()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -785,6 +787,40 @@ GET     /assets/images/*file        controllers.CdnAssets.redirImage(path="image
     )
   )
 
+  // @LINE:77
+  private[this] lazy val controllers_Application_photo41_route: Route.ParamsExtractor = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("photo")))
+  )
+  private[this] lazy val controllers_Application_photo41_invoker = createInvoker(
+    controllers.Application.photo(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "photo",
+      Nil,
+      "GET",
+      """photo page""",
+      this.prefix + """photo"""
+    )
+  )
+
+  // @LINE:78
+  private[this] lazy val controllers_Application_users42_route: Route.ParamsExtractor = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("users")))
+  )
+  private[this] lazy val controllers_Application_users42_invoker = createInvoker(
+    controllers.Application.users(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "users",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """users"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -1032,6 +1068,18 @@ GET     /assets/images/*file        controllers.CdnAssets.redirImage(path="image
     case controllers_Assets_versioned40_route(params) =>
       call(Param[String]("path", Right("/public")), params.fromPath[Asset]("file", None)) { (path, file) =>
         controllers_Assets_versioned40_invoker.call(controllers.Assets.versioned(path, file))
+      }
+  
+    // @LINE:77
+    case controllers_Application_photo41_route(params) =>
+      call { 
+        controllers_Application_photo41_invoker.call(controllers.Application.photo())
+      }
+  
+    // @LINE:78
+    case controllers_Application_users42_route(params) =>
+      call { 
+        controllers_Application_users42_invoker.call(controllers.Application.users())
       }
   }
 }

@@ -36,16 +36,15 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                    	<li class="@("active".when(nav == ""))"><a href="@routes.Application.index()">@Messages("playauthenticate.navigation.home")</a></li>
-                        <li class="@("active".when("request.path" == "/posts/71"))"><a href="@routes.Application.show(71)">О нас</a></li>
-                        <li class="@("active".when("request.path" == "/posts/92"))"><a href="@routes.Application.show(92)">Дрессировка</a></li>
-                        <li class="@("active".when("request.path" == "/posts/93"))"><a href="@routes.Application.show(93)">Зоогостиница</a></li>
-						<li class="@("active".when("request.path" == "/posts/94"))"><a href="@routes.Application.show(94)">Безопасность</a></li>
-						<li class="@("active".when("request.path" == "/posts/91"))"><a href="@routes.Application.show(91)">Вольеры</a></li>
-						<li class="@("active".when("request.path" == "/posts/11"))"><a href="@routes.Application.show(11)">Фотогалерея</a></li>
-                        <li class="@("active".when("request.path" == "/posts/75"))"><a href="@routes.Application.show(75)">Контакты</a></li>
+                    	<li class="@("active".when(request.path == "/"))"><a href="@routes.Application.index()">@Messages("playauthenticate.navigation.home")</a></li>
+                        <li class="@("active".when(request.path == "/posts/71"))"><a href="@routes.Application.show(71)">О нас</a></li>
+                        <li class="@("active".when(request.path == "/posts/92"))"><a href="@routes.Application.show(92)">Дрессировка</a></li>
+                        <li class="@("active".when(request.path == "/posts/93"))"><a href="@routes.Application.show(93)">Зоогостиница</a></li>
+						<li class="@("active".when(request.path == "/posts/94"))"><a href="@routes.Application.show(94)">Безопасность</a></li>
+						<li class="@("active".when(request.path == "/posts/91"))"><a href="@routes.Application.show(91)">Вольеры</a></li>
+						<li class="@("active".when(request.path == "/photo"))"><a href="@routes.Application.photo()">Фотогалерея</a></li>
+                        <li class="@("active".when(request.path == "/posts/75"))"><a href="@routes.Application.show(75)">Контакты</a></li>
 						  <!--<li class="@("active".when(nav == "restricted"))"><a href="@routes.Application.restricted()">@Messages("playauthenticate.navigation.restricted") </a></li>-->
-                            
                         
                         @subjectNotPresent() {
                             <li class="@("active".when(nav == "signup"))"><a href="@routes.Application.signup()">@Messages("playauthenticate.navigation.signup")</a></li>
@@ -60,7 +59,8 @@
                                     <li class="@("active".when(nav == "profile"))"><a href="@routes.Application.profile()">@Messages("playauthenticate.navigation.profile")</a></li>
                                     <li><a href="@routes.Account.link()">@Messages("playauthenticate.navigation.link_more")</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="@routes.Application.admin()">My Posts</a></li>
+                                    <li><a href="@routes.Application.admin()">All Posts</a></li>
+                                     <li><a href="@routes.Application.users()">All Users</a></li>
                                     <li class="divider"></li>                                    
                                     <li><a href="@com.feth.play.module.pa.controllers.routes.Authenticate.logout()"><i class="icon-off"></i> @Messages("playauthenticate.navigation.logout")</a></li>
                                 </ul>

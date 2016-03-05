@@ -27,6 +27,7 @@ create table jos_content (
   content                   text,
   author_id                 bigint,
   html_preview              varchar(255),
+  is_photo                  boolean,
   constraint pk_jos_content primary key (id))
 ;
 
