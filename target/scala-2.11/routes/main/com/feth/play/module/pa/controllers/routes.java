@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/j/2015_10/zvenigorod/conf/routes
-// @DATE:Sun Mar 06 01:00:16 MSK 2016
+// @DATE:Sun Mar 06 01:05:16 MSK 2016
 
 package com.feth.play.module.pa.controllers;
 

@@ -58,7 +58,7 @@ Ekipa PlayAuthenticate"""))
 object verify_email_pl extends verify_email_pl_Scope0.verify_email_pl
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 01:00:19 MSK 2016
+                  DATE: Sun Mar 06 01:05:19 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/signup/email/verify_email_pl.scala.txt
                   HASH: 570ba850c5f888e3164b7e4f52b138c560a661a9
                   MATRIX: 801->1|964->70|997->77|1021->81|1134->169|1169->184|1197->186

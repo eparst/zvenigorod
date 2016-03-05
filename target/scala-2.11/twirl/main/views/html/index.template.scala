@@ -64,7 +64,7 @@ Seq[Any](format.raw/*1.55*/("""
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 01:00:18 MSK 2016
+                  DATE: Sun Mar 06 01:05:17 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/index.scala.html
                   HASH: 85c80b33afa4601cfb4c544be3adf45579bf819b
                   MATRIX: 768->1|916->54|944->57|998->103|1037->105|1071->113|1178->291|1212->400|1243->405|1286->427|1321->435|1412->534|1447->1100|1482->1108|1552->2023|1587->2028
