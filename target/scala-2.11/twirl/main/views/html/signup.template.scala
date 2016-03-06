@@ -79,7 +79,7 @@ Seq[Any](format.raw/*1.23*/("""
 object signup extends signup_Scope0.signup
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 13:40:57 MSK 2016
+                  DATE: Sun Mar 06 13:58:45 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/signup.scala.html
                   HASH: 87b4cc92d173e2eba34b0776a20558d8ed1b156d
                   MATRIX: 821->1|944->42|976->66|1055->22|1084->115|1112->118|1176->174|1215->176|1245->180|1347->255|1409->296|1500->438|1532->1094|1560->1095|1638->1146|1700->1187|1737->1237|1774->1247|1830->1282|1862->1287|1911->1306

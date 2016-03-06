@@ -71,7 +71,7 @@ Seq[Any](format.raw/*1.72*/("""
 object password_forgot extends password_forgot_Scope0.password_forgot
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 13:40:58 MSK 2016
+                  DATE: Sun Mar 06 13:58:46 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/signup/password_forgot.scala.html
                   HASH: b464021dd851f99967f3eb248c9167eb39da218f
                   MATRIX: 831->1|1003->91|1035->115|1114->71|1143->164|1171->167|1235->223|1274->225|1303->228|1333->233|1403->283|1442->296|1529->374|1569->376|1611->391|1649->420|1689->422|1728->433|1799->477|1817->486|1858->506|1894->515|1943->533|1976->540|2021->564|2054->570|2128->617|2198->665|2240->677|2269->679|2305->685
