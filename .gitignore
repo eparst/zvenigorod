@@ -2,7 +2,7 @@ logs
 tmp
 .history
 dist
-bin
+#bin
 repository
 templates
 test
