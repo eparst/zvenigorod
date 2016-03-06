@@ -59,7 +59,7 @@ A equipa do PlayAuthenticate"""))
 object password_reset_pt extends password_reset_pt_Scope0.password_reset_pt
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 01:07:41 MSK 2016
+                  DATE: Sun Mar 06 13:40:57 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/email/password_reset_pt.scala.txt
                   HASH: fc7e0c7acaf1e8f124d4984b0c822a95492e6e3b
                   MATRIX: 798->1|949->58|980->63|1004->67|1280->318|1302->321|1333->325

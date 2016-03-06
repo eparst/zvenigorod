@@ -53,7 +53,7 @@ Seq[Any](_display_(/*2.2*/main(Messages("playauthenticate.token.error.title"))/*
 object no_token_or_invalid extends no_token_or_invalid_Scope0.no_token_or_invalid
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 01:07:41 MSK 2016
+                  DATE: Sun Mar 06 13:40:58 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/account/signup/no_token_or_invalid.scala.html
                   HASH: 3acf522ebe9137753a8ea94ca7082d5afce58e52
                   MATRIX: 870->2|930->54|969->56|997->58|1027->63|1093->109|1129->120|1197->168|1232->174

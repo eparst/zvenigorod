@@ -50,7 +50,7 @@ Seq[Any](format.raw/*1.23*/("""
 object _providerIcon extends _providerIcon_Scope0._providerIcon
               /*
                   -- GENERATED --
-                  DATE: Sun Mar 06 01:07:40 MSK 2016
+                  DATE: Sun Mar 06 13:40:57 MSK 2016
                   SOURCE: C:/j/2015_10/zvenigorod/app/views/_providerIcon.scala.html
                   HASH: 0b5a1b4f4fe4f3c817444b7900c0337ccaa99633
                   MATRIX: 761->1|877->22|904->23|941->34|972->45|1000->46|1040->60|1071->71|1105->79|1119->85|1192->137
