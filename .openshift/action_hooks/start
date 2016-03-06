@@ -6,7 +6,7 @@
 
 #Java 8
 #over SSH:
-// connect with SSH to your application, then
+# connect with SSH to your application, then
 #cd $OPENSHIFT_DATA_DIR
 #wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.tar.gz
 #tar -zxf jdk-8u45-linux-x64.tar.gz
@@ -17,7 +17,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 
 # loads $PLAY_PARAMS
-#. ${OPENSHIFT_REPO_DIR}.openshift/action_hooks/load_config
+. ${OPENSHIFT_REPO_DIR}/.openshift/action_hooks/load_config
 
 if [[ ! $? -eq 0 ]]; then
 	exit $?
@@ -25,10 +25,13 @@ fi
 
 LOG_FILE="${OPENSHIFT_DIY_LOG_DIR}play.log"
 
-chmod +x ${OPENSHIFT_REPO_DIR}target/universal/stage/bin/${OPENSHIFT_APP_NAME}
+#chmod +x ${OPENSHIFT_REPO_DIR}target/universal/stage/bin/${OPENSHIFT_APP_NAME}
+chmod +x ${OPENSHIFT_REPO_DIR}/target/universal/stage/bin/${OPENSHIFT_APP_NAME}
 #/var/lib/openshift/558c00475973caf3b80000f5/app-root/runtime/repo/target/universal/stage/bin/oleg
 
-APP_COMMAND="${OPENSHIFT_REPO_DIR}target/universal/stage/bin/${OPENSHIFT_APP_NAME} $PLAY_PARAMS "\
+#APP_COMMAND="${OPENSHIFT_REPO_DIR}target/universal/stage/bin/${OPENSHIFT_APP_NAME} $PLAY_PARAMS "\
+
+APP_COMMAND="${OPENSHIFT_REPO_DIR}/target/universal/stage/bin/${OPENSHIFT_APP_NAME} $PLAY_PARAMS "\
 "-Dhttp.port=${OPENSHIFT_DIY_PORT} "\
 "-Dhttp.address=${OPENSHIFT_DIY_IP} "\
 "-Dconfig.resource=openshift.conf"
