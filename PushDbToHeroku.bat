@@ -17,4 +17,6 @@ curl --user rus-f1@ya.ru:gtxty.irf1 -o oleg.dump https://webdav.yandex.ru/oleg.d
 pg_restore --verbose --clean --no-acl --no-owner -h localhost -U adminhpcaky5 -d oleg oleg.dump
 
 psql -U adminhpcaky5  -d oleg -W -f oleg.dump
-vYX4xtwr2kzw
+passw: vYX4xtwr2kzw
+
+pg_restore --verbose --clean --no-acl --no-owner -h localhost -U adminkhmytne -d simargl oleg.dump
