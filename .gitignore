@@ -6,8 +6,8 @@ bin
 repository
 templates
 test
-/target/
-target
+#/target/
+#target
 /activator-launch-1.3.5.jar
 /activator-launch-1.3.5.jar
 /*.dump
