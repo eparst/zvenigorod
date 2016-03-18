@@ -1,7 +1,7 @@
 @import models._
 @import be.objectify.deadbolt.java.views.html._
 @(photos: List[Post], user: User) @main("photo") { @*admin*@
-</br>
+<div class="jumbotron" >
     @if(flash.contains("success")) {
         <p>
         @flash.get("success")
@@ -15,7 +15,7 @@
           <table>			    				
    	@if(photos != null){
     @for((post, index) <- photos.zipWithIndex) {
-    	@if(index % 4 == 0  ){<tr>}
+    	@if(index % 6 == 0  ){<tr>}
    			<td>   
    			<a href="@routes.Application.show(post.id)">
    				@Html(CdnAssets.changeImageUrl(post.htmlPreview))
@@ -26,7 +26,7 @@
         	        <a href="@routes.AdminsPosts.delete(post.id)">Удалить</a></p>
                 }}
      	 	</td>
-    	  @if(index % 4 == 3   ){</tr>}
+    	  @if(index % 6 == 5   ){</tr>}
       }
 
     }else{
@@ -34,5 +34,5 @@
           }
           </tr>
           </table>
-
+</div>
 }
