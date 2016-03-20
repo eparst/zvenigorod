@@ -76,3 +76,4 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 #photo page
 GET         /photo                                controllers.Application.photo()
 GET         /users                                controllers.Application.users()
+GET         /ip                                controllers.Application.getIp()

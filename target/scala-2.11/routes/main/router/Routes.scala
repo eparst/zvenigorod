@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/j/2015_10/zvenigorod/conf/routes
-// @DATE:Sun Mar 06 13:58:44 MSK 2016
+// @DATE:Mon Mar 21 02:13:13 MSK 2016
 
 package router
 
@@ -81,6 +81,7 @@ class Routes extends GeneratedRouter {
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """photo""", """controllers.Application.photo()"""),
     ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """users""", """controllers.Application.users()"""),
+    ("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """ip""", """controllers.Application.getIp()"""),
     Nil
   ).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
     case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
@@ -821,6 +822,23 @@ GET     /assets/images/*file        controllers.CdnAssets.redirImage(path="image
     )
   )
 
+  // @LINE:79
+  private[this] lazy val controllers_Application_getIp43_route: Route.ParamsExtractor = Route("GET",
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("ip")))
+  )
+  private[this] lazy val controllers_Application_getIp43_invoker = createInvoker(
+    controllers.Application.getIp(),
+    HandlerDef(this.getClass.getClassLoader,
+      "router",
+      "controllers.Application",
+      "getIp",
+      Nil,
+      "GET",
+      """""",
+      this.prefix + """ip"""
+    )
+  )
+
 
   def routes: PartialFunction[RequestHeader, Handler] = {
   
@@ -1080,6 +1098,12 @@ GET     /assets/images/*file        controllers.CdnAssets.redirImage(path="image
     case controllers_Application_users42_route(params) =>
       call { 
         controllers_Application_users42_invoker.call(controllers.Application.users())
+      }
+  
+    // @LINE:79
+    case controllers_Application_getIp43_route(params) =>
+      call { 
+        controllers_Application_getIp43_invoker.call(controllers.Application.getIp())
       }
   }
 }

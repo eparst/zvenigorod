@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/j/2015_10/zvenigorod/conf/routes
-// @DATE:Sun Mar 06 13:58:44 MSK 2016
+// @DATE:Mon Mar 21 02:13:13 MSK 2016
 
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }
 import play.core.routing.{ HandlerDef, ReverseRouteContext, queryString, dynamicString }
@@ -149,6 +149,12 @@ package controllers {
     def signup(): Call = {
       import ReverseRouteContext.empty
       Call("GET", _prefix + { _defaultPrefix } + "signup")
+    }
+  
+    // @LINE:79
+    def getIp(): Call = {
+      import ReverseRouteContext.empty
+      Call("GET", _prefix + { _defaultPrefix } + "ip")
     }
   
     // @LINE:34

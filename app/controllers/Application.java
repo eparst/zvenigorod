@@ -29,6 +29,7 @@ import com.feth.play.module.pa.user.AuthUser;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.util.*;
 
 import javasape.*;
@@ -230,4 +231,14 @@ public class Application extends Controller {
 
 		}
 	}
+	public static Result getIp(){
+		 InetAddress ipq;
+		  try {
+			ipq = InetAddress.getLocalHost();
+			return ok(ip.render(ipq.getHostAddress()));
+
+		  } catch (Exception e) {
+			  return ok(ip.render(""));
+		  }
+		}
 }
