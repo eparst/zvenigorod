@@ -232,13 +232,15 @@ public class Application extends Controller {
 		}
 	}
 	public static Result getIp(){
-		 InetAddress ipq;
-		  try {
-			ipq = InetAddress.getLocalHost();
-			return ok(ip.render(ipq.getHostAddress()));
+		 String headerValue = request().getHeader(("X-FORWARDED-FOR"));
 
-		  } catch (Exception e) {
-			  return ok(ip.render(""));
-		  }
+		    if (headerValue == null) {  
+		    	headerValue = request().remoteAddress();  
+		    } else {
+		    	headerValue = headerValue.split(",")[0].trim();
+		    }
+
+			return ok(ip.render( request().getHeader(("X-FORWARDED-FOR")) + " " + headerValue));
+
 		}
 }
