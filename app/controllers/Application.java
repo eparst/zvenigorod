@@ -27,9 +27,13 @@ import com.feth.play.module.pa.providers.password.UsernamePasswordAuthProvider;
 import com.feth.play.module.pa.user.AuthUser;
 
 import java.awt.image.BufferedImage;
+import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.InetAddress;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.*;
 
 import javasape.*;
@@ -231,16 +235,25 @@ public class Application extends Controller {
 
 		}
 	}
-	public static Result getIp(){
-		 String headerValue = request().getHeader(("X-FORWARDED-FOR"));
-
-		    if (headerValue == null) {  
-		    	headerValue = request().remoteAddress();  
-		    } else {
-		    	headerValue = headerValue.split(",")[0].trim();
-		    }
-
-			return ok(ip.render( request().getHeader(("X-FORWARDED-FOR")) + " = " + request().getHeader(X_FORWARDED_HOST)));
+	public static Result getIp() throws IOException{
+		  URL whatismyip = new URL("http://checkip.amazonaws.com");
+		  String ipq = "";
+	        BufferedReader in = null;
+	        try {
+	            in = new BufferedReader(new InputStreamReader(whatismyip.openStream()));
+	            ipq = in.readLine();
+	            
+	        } finally {
+	            if (in != null) {
+	                try {
+	                    in.close();
+	                } catch (IOException e) {
+	                    e.printStackTrace();
+	                }
+	            }
+	        }
+	        return ok(ip.render( ipq));
+//			return ok(ip.render( request().getHeader(("X-FORWARDED-FOR")) + " = " + request().getHeader(X_FORWARDED_HOST)));
 
 		}
 }
