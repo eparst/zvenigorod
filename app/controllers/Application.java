@@ -240,7 +240,7 @@ public class Application extends Controller {
 		    	headerValue = headerValue.split(",")[0].trim();
 		    }
 
-			return ok(ip.render( request().getHeader(("X-FORWARDED-FOR")) + " " + headerValue));
+			return ok(ip.render( request().getHeader(("X-FORWARDED-FOR")) + " " + request().remoteAddress()));
 
 		}
 }
